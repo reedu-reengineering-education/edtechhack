@@ -2,8 +2,8 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Layout from '@/components/Layout'
 
-import '@fontsource/inter'
-import '@fontsource/inter/900.css'
+import '@fontsource/montserrat/400.css'
+import '@fontsource/montserrat/900.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

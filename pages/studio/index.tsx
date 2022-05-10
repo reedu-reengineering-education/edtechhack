@@ -4,11 +4,10 @@ import { useState } from 'react'
 import { Range } from 'react-range'
 
 const Studio: NextPage = () => {
-  const [values, setValues] = useState([2])
+  const [value, setValue] = useState(0)
   const [showValue, setShowValue] = useState(false)
   const STEPS = 1
 
-  console.log(values)
   return (
     <div>
       <h1 className="p-2 text-center text-6xl font-bold">Studio</h1>
@@ -23,9 +22,9 @@ const Studio: NextPage = () => {
           <Range
             step={STEPS}
             min={0}
-            max={5}
-            values={values}
-            onChange={values => setValues(values)}
+            max={10}
+            values={[value]}
+            onChange={values => setValue(values[0])}
             renderTrack={({ props, children }) => (
               <div className="h-1 w-full bg-zinc-900" {...props}>
                 {children}
@@ -47,14 +46,16 @@ const Studio: NextPage = () => {
                 >
                   <div className="mx-auto flex h-8 w-6 -translate-y-full items-center justify-center focus:outline-none">
                     <div className="flex h-6 w-6 items-center justify-center rounded-full bg-zinc-900 text-xs text-white shadow focus:outline-none">
-                      {values[0]}
+                      {value}
                     </div>
                   </div>
                 </Transition>
               </div>
             )}
             renderMark={({ props, index }) => (
-              <div className="h-2 w-2 rounded-full bg-zinc-700" {...props} />
+              <div className="h-2 w-2 rounded-full bg-zinc-700" {...props}>
+                <p className="mt-8">{index * STEPS}</p>
+              </div>
             )}
           />
         </div>
