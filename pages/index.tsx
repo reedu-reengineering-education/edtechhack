@@ -3,18 +3,23 @@ import { Spacer } from '@/components/Elements/Spacer'
 import type { NextPage } from 'next'
 import { ArrowRightIcon } from '@heroicons/react/solid'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
     <div>
       <div className="mx-auto md:max-w-3xl">
-        <h1 className="bg-gradient-to-br from-red-500 to-blue-500 bg-clip-text p-2 text-center text-6xl font-bold text-transparent">
-          Digitale Abenteuer für Bildungseinrichtungen
-        </h1>
+        <div className="relative h-32 w-full">
+          <Image
+            src={require('@/assets/likert-o-mat-logo.svg')}
+            alt="Logo"
+            layout="fill"
+          />
+        </div>
         <Spacer />
         <h2 className="p-2 text-center text-2xl">
-          <span className="font-bold">re:quest</span> ist eine Plattform zum
-          Erstellen von digitalen Escape Games für Bildungseinrichtungen
+          Der <span className="font-bold">Likert-o-mat</span> ist eine Plattform
+          zum Erstellen von Umfragen mit Likert Skalen
         </h2>
         <Spacer />
         <Link href={'/studio'} passHref>
@@ -22,7 +27,7 @@ const Home: NextPage = () => {
             endIcon={<ArrowRightIcon className="h-4" />}
             className="mx-auto"
           >
-            re:quest erstellen
+            Umfrage erstellen
           </Button>
         </Link>
       </div>
