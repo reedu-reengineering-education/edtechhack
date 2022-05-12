@@ -7,8 +7,6 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const token = await getToken({ req })
   const userId = token?.sub
 
-  console.log(userId)
-
   if (req.method === 'POST') {
     try {
       const survey = await prisma.survey.create({ data: { ...body, userId } })

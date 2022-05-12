@@ -6,10 +6,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Tab, Transition } from '@headlessui/react'
 import Slider from '@/components/Slider'
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import clsx from 'clsx'
 
 const Home: NextPage = () => {
+  const [demoValue, setDemoValue] = useState(0)
   return (
     <div>
       <div className="mx-auto md:max-w-3xl">
@@ -44,36 +45,38 @@ const Home: NextPage = () => {
         >
           <div className="rounded-xl bg-zinc-50 p-8 shadow-xl">
             <Tab.Group>
-              <Tab.List className="flex space-x-1 rounded-xl bg-mango-200 p-1">
+              <Tab.List className="flex space-x-1 rounded-full bg-mango-400 p-1">
                 <Tab
                   className={({ selected }) =>
                     clsx(
-                      'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-zinc-700 outline-none',
+                      'w-full rounded-full py-2.5 text-sm font-medium leading-5 text-zinc-700 outline-none',
                       selected ? 'bg-white shadow' : 'text-mango-100',
                     )
                   }
                 >
-                  Frage Ansicht
+                  Frage
                 </Tab>
                 <Tab
                   className={({ selected }) =>
                     clsx(
-                      'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-zinc-700 outline-none',
+                      'w-full rounded-full py-2.5 text-sm font-medium leading-5 text-zinc-700 outline-none',
                       selected ? 'bg-white shadow' : 'text-mango-100 ',
                     )
                   }
                 >
-                  Antwort Ansicht
+                  Antwort
                 </Tab>
               </Tab.List>
-              <Tab.Panels className="mt-8">
+              <Tab.Panels className="mt-16">
                 <Tab.Panel>
                   <Slider
                     name="Wie fühlen Sie sich heute?"
                     min={0}
                     max={10}
                     steps={2}
-                    onChange={() => {}}
+                    onChange={value => {
+                      setDemoValue(value)
+                    }}
                   />
                 </Tab.Panel>
                 <Tab.Panel>
@@ -83,7 +86,8 @@ const Home: NextPage = () => {
                     max={10}
                     steps={2}
                     onChange={() => {}}
-                    answer={8.7}
+                    answer={demoValue}
+                    average={8.7}
                   />
                 </Tab.Panel>
               </Tab.Panels>

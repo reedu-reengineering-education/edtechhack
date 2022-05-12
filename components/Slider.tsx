@@ -9,24 +9,38 @@ type SliderProps = {
   steps: number
   onChange: (value: number) => any
   answer?: number
+  average?: number
 }
 
-const Slider = ({ name, min, max, steps, onChange, answer }: SliderProps) => {
-  const [value, setValue] = useState(min)
+const Slider = ({
+  name,
+  min,
+  max,
+  steps,
+  onChange,
+  answer,
+  average,
+}: SliderProps) => {
+  const [value, setValue] = useState(answer || min)
   const [showValue, setShowValue] = useState(false)
 
   return (
     <div className="relative mx-4">
+      {average && (
+        <p className="mb-2 font-semibold text-zinc-600">
+          Durchschnittliche Antwort: {average}
+        </p>
+      )}
       <p className="mb-2 text-lg font-semibold">{name}</p>
-      {answer && (
+      {average && (
         <div
           className="absolute"
           style={{
-            left: `${answer * max}%`,
+            left: `${average * max}%`,
           }}
         >
           <div className="flex h-6 w-6 -translate-x-3 items-center justify-center rounded-full bg-mango text-xs shadow focus:outline-none">
-            {answer}
+            {average}
           </div>
           <div className="h-11 w-1 -translate-x-1/2  bg-mango"></div>
         </div>
@@ -42,40 +56,39 @@ const Slider = ({ name, min, max, steps, onChange, answer }: SliderProps) => {
           step={steps}
           min={min}
           max={max}
-          values={[value]}
+          values={[answer || value]}
           onChange={values => {
             setValue(values[0])
             onChange(values[0])
           }}
+          disabled={answer != undefined}
           renderTrack={({ props, children }) => (
             <div className="h-1 w-full bg-zinc-900" {...props}>
               {children}
             </div>
           )}
-          renderThumb={({ props }) =>
-            !answer && (
-              <div
-                className="h-8 w-8 rounded-full bg-mango shadow focus:outline-none"
-                {...props}
+          renderThumb={({ props }) => (
+            <div
+              className="h-8 w-8 rounded-full bg-mango shadow focus:outline-none"
+              {...props}
+            >
+              <Transition
+                show={showValue}
+                enter="transition duration-75"
+                enterFrom="opacity-0 translate-y-full"
+                enterTo="opacity-100 translate-y-0"
+                leave="transition duration-150"
+                leaveFrom="opacity-100"
+                leaveTo="opacity-0 translate-y-full"
               >
-                <Transition
-                  show={showValue}
-                  enter="transition duration-75"
-                  enterFrom="opacity-0 translate-y-full"
-                  enterTo="opacity-100 translate-y-0"
-                  leave="transition duration-150"
-                  leaveFrom="opacity-100"
-                  leaveTo="opacity-0 translate-y-full"
-                >
-                  <div className="mx-auto flex h-8 w-6 -translate-y-full items-center justify-center focus:outline-none">
-                    <div className="flex h-6 w-6 items-center justify-center rounded-full bg-zinc-900 text-xs text-white shadow focus:outline-none">
-                      {value}
-                    </div>
+                <div className="mx-auto flex h-8 w-6 -translate-y-full items-center justify-center focus:outline-none">
+                  <div className="flex h-6 w-6 items-center justify-center rounded-full bg-zinc-900 text-xs text-white shadow focus:outline-none">
+                    {value}
                   </div>
-                </Transition>
-              </div>
-            )
-          }
+                </div>
+              </Transition>
+            </div>
+          )}
           renderMark={({ props, index }) => (
             <div className="h-2 w-2 rounded-full bg-zinc-700" {...props}>
               <p className="mt-8">{index * steps}</p>
