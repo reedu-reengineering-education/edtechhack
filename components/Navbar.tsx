@@ -4,11 +4,14 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import { signOut, useSession } from 'next-auth/react'
+import { Button } from './Elements/Button'
 
 const navigation = [{ name: 'Studio', href: '/studio' }]
 
 const Navbar = () => {
   const router = useRouter()
+  const { data: session } = useSession()
 
   return (
     <Disclosure as="nav" className="shadow">
@@ -66,11 +69,13 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                {/* {!session && (
+                {!session && (
                   <Link href={'/api/auth/signin'} passHref>
-                    <Button className="mx-auto">Login</Button>
+                    <Button className="mx-auto" size="sm">
+                      Login
+                    </Button>
                   </Link>
-                )} */}
+                )}
 
                 {/* {session && (
                   <Menu as="div" className="relative ml-3">
