@@ -1,5 +1,5 @@
 import { Transition } from '@headlessui/react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Range } from 'react-range'
 
 type SliderProps = {
@@ -23,6 +23,10 @@ const Slider = ({
 }: SliderProps) => {
   const [value, setValue] = useState(answer || min)
   const [showValue, setShowValue] = useState(false)
+
+  useEffect(() => {
+    setValue(answer || min)
+  }, [min, max, steps, answer])
 
   return (
     <div className="relative mx-4">
@@ -91,7 +95,7 @@ const Slider = ({
           )}
           renderMark={({ props, index }) => (
             <div className="h-2 w-2 rounded-full bg-zinc-700" {...props}>
-              <p className="mt-8">{index * steps}</p>
+              <p className="mt-8">{min + index * steps}</p>
             </div>
           )}
         />
