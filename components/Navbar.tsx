@@ -1,11 +1,19 @@
-import { Disclosure } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Disclosure, Menu, Transition } from '@headlessui/react'
+import {
+  CogIcon,
+  LogoutIcon,
+  MenuIcon,
+  UserIcon,
+  XIcon,
+} from '@heroicons/react/outline'
 import clsx from 'clsx'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { signOut, useSession } from 'next-auth/react'
 import { Button } from './Elements/Button'
+import { Fragment } from 'react'
+import { StarIcon } from '@heroicons/react/solid'
 
 const navigation = [{ name: 'Studio', href: '/studio' }]
 
@@ -77,12 +85,12 @@ const Navbar = () => {
                   </Link>
                 )}
 
-                {/* {session && (
+                {session && (
                   <Menu as="div" className="relative ml-3">
                     <div>
-                      <Menu.Button className="from-flamingo to-dodger-blue flex rounded-full bg-gradient-to-br via-purple-500 ring-2 ring-slate-200 ring-offset-2 ring-offset-slate-800">
+                      <Menu.Button className="flex rounded-full bg-mango ring-2 ring-0">
                         <span className="sr-only">Open user menu</span>
-                        <div className="flex h-8 w-8 items-center justify-center rounded-full font-semibold uppercase">
+                        <div className="flex h-8 w-8 items-center justify-center rounded-full uppercase">
                           <p>{session?.user?.email?.substring(0, 2)}</p>
                         </div>
                       </Menu.Button>
@@ -96,17 +104,18 @@ const Navbar = () => {
                       leaveFrom="transform opacity-100 scale-100"
                       leaveTo="transform opacity-0 scale-95"
                     >
-                      <Menu.Items className="absolute right-0 mt-2 w-48 origin-top-right rounded bg-zinc-700 py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Items className="absolute right-0 mt-2 w-48 origin-top-right rounded bg-zinc-50 shadow-lg focus:outline-none">
                         <Menu.Item>
                           {({ active }) => (
                             <a
                               href="#"
                               className={clsx(
-                                active ? 'bg-zinc-600' : '',
-                                'block px-4 py-2 text-sm',
+                                active ? 'bg-mango-200' : '',
+                                'flex items-center px-4 py-4 text-sm',
                               )}
                             >
-                              Profile
+                              <UserIcon className="mr-2 h-4 w-4" />
+                              <span>Profile</span>
                             </a>
                           )}
                         </Menu.Item>
@@ -115,11 +124,26 @@ const Navbar = () => {
                             <a
                               href="#"
                               className={clsx(
-                                active ? 'bg-zinc-600' : '',
-                                'block px-4 py-2 text-sm ',
+                                active ? 'bg-mango-200' : '',
+                                'flex items-center p-4 text-sm',
                               )}
                             >
-                              Einstellungen
+                              <StarIcon className="mr-2 h-4 w-4 text-mango" />
+                              <span>Premium</span>
+                            </a>
+                          )}
+                        </Menu.Item>
+                        <Menu.Item>
+                          {({ active }) => (
+                            <a
+                              href="#"
+                              className={clsx(
+                                active ? 'bg-mango-200' : '',
+                                'flex px-4 py-4 text-sm ',
+                              )}
+                            >
+                              <CogIcon className="mr-2 h-4 w-4" />
+                              <span>Einstellungen</span>
                             </a>
                           )}
                         </Menu.Item>
@@ -127,19 +151,20 @@ const Navbar = () => {
                           {({ active }) => (
                             <p
                               className={clsx(
-                                active ? 'bg-zinc-600' : '',
-                                'block cursor-pointer px-4 py-2 text-sm ',
+                                active ? 'bg-mango-200' : '',
+                                'flex cursor-pointer px-4 py-4 text-sm ',
                               )}
                               onClick={() => signOut({ callbackUrl: '/' })}
                             >
-                              Sign out
+                              <LogoutIcon className="mr-2 h-4 w-4" />
+                              <span>Logout</span>
                             </p>
                           )}
                         </Menu.Item>
                       </Menu.Items>
                     </Transition>
                   </Menu>
-                )} */}
+                )}
               </div>
             </div>
           </div>
