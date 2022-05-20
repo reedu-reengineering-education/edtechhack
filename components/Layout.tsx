@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from './Footer'
 import Navbar from './Navbar'
 
 export type LayoutProps = {
@@ -9,7 +10,8 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <>
       <Navbar />
-      <main className="container mx-auto p-4">{children}</main>
+      <main>{children}</main>
+      <Footer />
     </>
   )
 }

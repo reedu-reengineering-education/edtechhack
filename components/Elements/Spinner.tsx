@@ -9,7 +9,7 @@ const sizes = {
 
 const variants = {
   light: 'text-white',
-  primary: 'text-mango',
+  primary: 'text-royal-blue',
 }
 
 export type SpinnerProps = {
