@@ -42,7 +42,7 @@ const Home: NextPage = () => {
 
       <main className="container mx-auto p-4">
         {/* DESCRIPTION */}
-        <div>
+        <div id="program">
           <div className="my-32 flex">
             <div className="mx-12 flex-1">
               <h2 className="my-4 ml-auto w-fit text-2xl font-semibold">
@@ -106,7 +106,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* CHALLANGES */}
-        <div className="text-center">
+        <div className="text-center" id="challenges">
           <h1 className="text-5xl">The challanges</h1>
           <div className="my-32 flex">
             <div className="mx-12 flex-1 text-center">
@@ -154,7 +154,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* PRICES */}
-        <div className="text-center">
+        <div className="text-center" id="prizes">
           <h1 className="text-5xl">The prizes</h1>
           <div className="my-32 flex">
             <div className="mx-12 flex-1 text-center">
@@ -200,7 +200,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* JURI */}
-        <div className="my-32 flex">
+        <div className="my-32 flex" id="juri-mentors">
           <div className="mx-12 flex-1">
             <h2 className="my-4 ml-auto w-fit text-2xl font-semibold">
               The Juri
@@ -334,7 +334,7 @@ const Home: NextPage = () => {
         </div>
         <Bar />
 
-        <div className="">
+        <div className="" id="timeline">
           <h1 className="text-center text-5xl">Timeline</h1>
 
           <div className="flex">
@@ -409,7 +409,7 @@ const Home: NextPage = () => {
         <Bar />
 
         {/* QUESTIONS */}
-        <div className="">
+        <div className="" id="contact">
           <div className="text-center">
             <h1 className="text-5xl">Questions</h1>
           </div>
@@ -467,7 +467,7 @@ const Home: NextPage = () => {
         <Bar />
 
         {/* SUPPORTERS */}
-        <div className="">
+        <div className="" id="supporters">
           <div className="text-center">
             <h1 className="text-5xl">Supporters</h1>
           </div>
@@ -489,7 +489,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        {/* SUPPORTERS */}
+        {/* PARTNERS */}
         <div className="">
           <div className="text-center">
             <h1 className="text-5xl">Partners</h1>

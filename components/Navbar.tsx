@@ -1,26 +1,17 @@
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import {
-  CogIcon,
-  LogoutIcon,
-  MenuIcon,
-  UserIcon,
-  XIcon,
-} from '@heroicons/react/outline'
+import { Disclosure } from '@headlessui/react'
+import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import clsx from 'clsx'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import { Button } from './Elements/Button'
-import { Fragment } from 'react'
-import { StarIcon } from '@heroicons/react/solid'
 
 const navigation = [
-  { name: 'Program', href: '/' },
-  { name: 'Challanges', href: '/' },
-  { name: 'Prizes', href: '/' },
-  { name: 'Juri and Mentors', href: '/' },
-  { name: 'Supporters', href: '/' },
-  { name: 'Contact', href: '/' },
+  { name: 'Program', href: '#program' },
+  { name: 'Challanges', href: '#challenges' },
+  { name: 'Prizes', href: '#prizes' },
+  { name: 'Juri and Mentors', href: '#juri-mentors' },
+  { name: 'Supporters', href: '#supporters' },
+  { name: 'Contact', href: '#contact' },
 ]
 
 const Navbar = () => {

@@ -1,19 +1,6 @@
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import {
-  CogIcon,
-  LogoutIcon,
-  MenuIcon,
-  UserIcon,
-  XIcon,
-} from '@heroicons/react/outline'
-import clsx from 'clsx'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
-import { Button } from './Elements/Button'
-import { Fragment } from 'react'
-import { StarIcon } from '@heroicons/react/solid'
-import { Facebook, Instagram, Twitch, Twitter } from 'react-feather'
+import { Facebook, Instagram, Twitter } from 'react-feather'
 
 const Footer = () => {
   const router = useRouter()
