@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="bg-royal-blue">
       <div className="mx-auto max-w-7xl px-2 py-4 sm:px-6 lg:px-8">
         <div className="flex">
-          <div className="flex-1">
+          <div className="hidden flex-1 md:block">
             <div className="relative my-4 mx-2 h-auto w-80 overflow-hidden rounded-lg border-2 border-white shadow">
               <Image
                 src={require('@/assets/logo.png')}
@@ -25,7 +25,7 @@ const Footer = () => {
               <Twitter />
             </div>
           </div>
-          <div className="flex flex-1 items-center justify-end text-white">
+          <div className="flex flex-1 items-center justify-center text-white md:justify-end">
             <p>Contact</p>
           </div>
         </div>
