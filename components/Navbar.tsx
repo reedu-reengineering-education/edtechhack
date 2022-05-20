@@ -5,17 +5,19 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-const navigation = [
-  { name: 'Program', href: '#program' },
-  { name: 'Challanges', href: '#challenges' },
-  { name: 'Prizes', href: '#prizes' },
-  { name: 'Juri and Mentors', href: '#juri-mentors' },
-  { name: 'Supporters', href: '#supporters' },
-  { name: 'Contact', href: '#contact' },
-]
-
 const Navbar = () => {
   const router = useRouter()
+
+  const { header: t } = require(`@/assets/i18n/${router.locale}.json`)
+
+  const navigation = [
+    { name: t.program, href: '#program' },
+    { name: t.challenges, href: '#challenges' },
+    { name: t.prizes, href: '#prizes' },
+    { name: t.juri, href: '#juri-mentors' },
+    { name: t.supporters, href: '#supporters' },
+    { name: t.contact, href: '#contact' },
+  ]
 
   return (
     <Disclosure
@@ -41,7 +43,7 @@ const Navbar = () => {
                 <div className="flex flex-shrink-0 items-center">
                   <Link href={'/'} passHref>
                     <a>
-                      <div className="relative my-4 mx-2 h-auto w-40 overflow-hidden rounded-lg border-2 border-white shadow sm:w-52 lg:w-80">
+                      <div className="relative my-4 mx-2 h-auto w-40 overflow-hidden rounded-lg sm:w-52 lg:w-80">
                         <Image
                           src={require('@/assets/logo.png')}
                           alt="Logo"
@@ -54,16 +56,28 @@ const Navbar = () => {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 lg:static lg:inset-auto lg:ml-6 lg:pr-0">
                 <div className="my-2 block lg:hidden">
-                  <button className="rounded-lg border-2 border-white  bg-royal-blue px-3 font-medium text-white shadow">
-                    ENG
-                  </button>
+                  <Link
+                    href={router.pathname}
+                    locale={router.locale === 'en' ? 'pt' : 'en'}
+                    passHref
+                  >
+                    <button className="rounded-lg border-2 border-white  bg-royal-blue px-3 font-medium text-white shadow">
+                      {router.locale === 'en' ? 'PT' : 'EN'}
+                    </button>
+                  </Link>
                 </div>
                 <div className="hidden lg:ml-6 lg:block">
                   <div className="flex flex-col items-end">
                     <div className="my-2">
-                      <button className="rounded-lg border-2 border-white  bg-royal-blue px-3 font-medium text-white shadow">
-                        ENG
-                      </button>
+                      <Link
+                        href={router.pathname}
+                        locale={router.locale === 'en' ? 'pt' : 'en'}
+                        passHref
+                      >
+                        <button className="rounded-lg border-2 border-white  bg-royal-blue px-3 font-medium text-white shadow">
+                          {router.locale === 'en' ? 'PT' : 'EN'}
+                        </button>
+                      </Link>
                     </div>
                     <div className="flex space-x-4">
                       {navigation.map(item => (

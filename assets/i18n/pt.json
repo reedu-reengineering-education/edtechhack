@@ -1,0 +1,36 @@
+{
+  "header": {
+    "program": "Programa",
+    "challenges": "Desafios",
+    "prizes": "Prêmios",
+    "juri": "Juri e Mentores",
+    "supporters": "Apoiadores",
+    "contact": "Contato"
+  },
+  "mainImage": {
+    "q1": "Você quer fazer parte de soluções tecnológicas e nacionais para desafios na área educacional?",
+    "q2": "Você tem um problema na educação que poderia ser resolvido com o apoio da tecnologia?"
+  },
+  "program": {
+    "whatIs": "O que é a EdTech Hackathon?",
+    "whatKind": "Que tipo de problema estamos tentando resolver?",
+    "participate": "Quem pode participar?",
+    "program": {
+      "title": "O programa",
+      "description": "A Edtech Hackathon é um evento para desenvolver soluções tecnológicas para os desafios locais e globais na educação. A fase on-line é o momento em que todos podem apresentar uma idéia de desafio aqui. A fase presencial, que acontecerá de 22 a 24 de agosto no Instituto Goethe em São Paulo. Serão dois dias exclusivos para os participantes desenvolverem soluções apoiadas por mentores e oficinas e pizza."
+    },
+    "challenges": {
+      "title": "Os Desafios",
+      "description": "Os desafios relacionados à educação e tecnologia podem ser apresentados on-line e por todos, alguns serão selecionados pelo júri e serão trabalhados pelos participantes hackthon durante dois dias. As soluções propostas durante a hackthon serão enviadas aos autores e publicadas aqui."
+    },
+    "participants": {
+      "title": "Participantes",
+      "description": "Os 30 participantes de várias partes do Brasil serão selecionados pelo comitê organizador. Apoiaremos financeiramente candidaturas de fora da área expandida de São Paulo e de todo o Brasil com uma bolsa de mobilidade."
+    },
+    "button": {
+      "join": "Junte-se à Hackathon",
+      "submit": "Apresentar um desafio",
+      "apply": "Se necessário, solicite uma subvenção"
+    }
+  }
+}

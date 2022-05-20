@@ -1,0 +1,36 @@
+{
+  "header": {
+    "program": "Program",
+    "challenges": "Challenges",
+    "prizes": "Prizes",
+    "juri": "Juri and Mentors",
+    "supporters": "Supporters",
+    "contact": "Contact"
+  },
+  "mainImage": {
+    "q1": "Do you want to be part of tech-solutions for and national challenges in the educational area?",
+    "q2": "Do you have a problem in education that could be solved with the support of technology?"
+  },
+  "program": {
+    "whatIs": "What is the EdTech Hackathon?",
+    "whatKind": "What kind of problem we are aiming to solve?",
+    "participate": "Who can participate?",
+    "program": {
+      "title": "The program",
+      "description": "The Edtech Hackathon is an event to develop tech solutions to local and global challenges in education. The online phase is the moment where everyone can submit an idea of challenge here. The presencial phase, which will take place on the 22-24th of August at the Goethe Institute in São Paulo. It will be two exclusive days for participants to develop solutions supported by mentors and workshops and pizza."
+    },
+    "challenges": {
+      "title": "The Challenges",
+      "description": "Challenges related to education and technology can be submitted online and by everyone, some will be selected by juri and will be worked on by hackthon participants over two days. The solutions proposed during the Hackthon will be sent to the authors and published here."
+    },
+    "participants": {
+      "title": "Participants",
+      "description": "The 30 participants from various parts of Brazil will be selected by the organizing committee. We will financially support applications from outside the expanded São Paulo area and from all over Brazil with a mobility grant."
+    },
+    "button": {
+      "join": "Join the Hackthon",
+      "submit": "Submit a challenge",
+      "apply": "If needed, apply for grant"
+    }
+  }
+}
