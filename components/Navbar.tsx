@@ -41,7 +41,7 @@ const Navbar = () => {
                 <div className="flex flex-shrink-0 items-center">
                   <Link href={'/'} passHref>
                     <a>
-                      <div className="relative my-4 mx-2 h-auto w-52 overflow-hidden rounded-lg border-2 border-white shadow lg:w-80">
+                      <div className="relative my-4 mx-2 h-auto w-40 overflow-hidden rounded-lg border-2 border-white shadow sm:w-52 lg:w-80">
                         <Image
                           src={require('@/assets/logo.png')}
                           alt="Logo"

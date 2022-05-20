@@ -8,7 +8,7 @@ import Bar from '@/components/Elements/Bar'
 
 const Home: NextPage = () => {
   return (
-    <div className="pt-24">
+    <div className="pt-16 lg:pt-24">
       {/* BG IMAGE */}
       <div className="relative h-auto max-h-[80rem] w-full overflow-hidden">
         <Image
