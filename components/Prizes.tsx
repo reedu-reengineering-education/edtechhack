@@ -10,7 +10,7 @@ const Prizes = () => {
 
   return (
     <div className="pt-28 text-center" id="prizes">
-      <h1 className="text-5xl">{t.prizes}</h1>
+      <h1 className="text-5xl">{t.title}</h1>
       <div className="my-32 md:flex">
         {prizes.map((p: any, i: any) => (
           <div className="mx-12 flex-1 text-center" key={i}>
