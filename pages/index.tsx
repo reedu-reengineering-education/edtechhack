@@ -10,10 +10,25 @@ import Prizes from '@/components/Prizes'
 import Supporters from '@/components/Supporters'
 import Partners from '@/components/Partners'
 import MainImage from '@/components/MainImage'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
     <div className="pt-16 lg:pt-24">
+      <Head>
+        <title>German-Brazilian EdTech Hackathon</title>
+        <meta
+          name="description"
+          content="The Edtech Hackathon is an event to develop tech solutions to local
+          and global challenges in education. The online phase is the moment
+          where everyone can submit an idea of challenge here. The presencial
+          phase, which will take place on the 22-24th of August at the Goethe
+          Institute in São Paulo. It will be two exclusive days for participants
+          to develop solutions supported by mentors and workshops and pizza."
+        />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </Head>
+
       <MainImage />
 
       <main className="container mx-auto">
