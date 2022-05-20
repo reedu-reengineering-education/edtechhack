@@ -11,7 +11,7 @@ const MainImage = () => {
       <div className="relative h-auto max-h-[40rem] w-full">
         <div className=" max-h-[40rem] overflow-hidden">
           <Image
-            src={require('@/assets/bg.png')}
+            src={require('@/assets/images/bg.png')}
             alt="Logo"
             layout="responsive"
             className="overflow-hidden"

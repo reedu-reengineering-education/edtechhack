@@ -16,7 +16,7 @@ const Mentors = () => {
         <div className="flex flex-col items-center p-4">
           <div className="h-40 w-40 overflow-hidden rounded-full border-4 border-royal-blue">
             <Image
-              src={require('@/assets/juri/barto_new.jpeg')}
+              src={require('@/assets/images/jury/barto_new.jpeg')}
               layout="responsive"
               alt="barto"
             />
@@ -32,7 +32,7 @@ const Mentors = () => {
         <div className="flex flex-col items-center p-4">
           <div className="h-40 w-40 overflow-hidden rounded-full border-4 border-royal-blue">
             <Image
-              src={require('@/assets/juri/barto_new.jpeg')}
+              src={require('@/assets/images/jury/barto_new.jpeg')}
               layout="responsive"
               alt="barto"
             />
@@ -48,7 +48,7 @@ const Mentors = () => {
         <div className="flex flex-col items-center p-4">
           <div className="h-40 w-40 overflow-hidden rounded-full border-4 border-royal-blue">
             <Image
-              src={require('@/assets/juri/barto_new.jpeg')}
+              src={require('@/assets/images/jury/barto_new.jpeg')}
               layout="responsive"
               alt="barto"
             />

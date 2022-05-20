@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="hidden flex-1 md:block">
             <div className="relative my-4 mx-2 h-auto w-80 overflow-hidden">
               <Image
-                src={require('@/assets/logo.png')}
+                src={require('@/assets/images/logo.png')}
                 alt="Logo"
                 layout="responsive"
               />

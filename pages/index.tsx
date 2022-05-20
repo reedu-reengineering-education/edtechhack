@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Bar from '@/components/Elements/Bar'
 import Program from '@/components/Program'
 import Challenges from '@/components/Challenges'
-import Juri from '@/components/Juri'
+import Jury from '@/components/Jury'
 import Mentors from '@/components/Mentors'
 import Timeline from '@/components/Timeline'
 import Contact from '@/components/Contact'
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <Challenges />
         <Prizes />
         <Bar />
-        <Juri />
+        <Jury />
         <Mentors />
         <Bar />
         <Timeline />

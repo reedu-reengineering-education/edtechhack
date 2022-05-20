@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Partners = () => {
   return (
     <div className="">
@@ -7,21 +8,21 @@ const Partners = () => {
       <div className="my-32 items-center md:flex">
         <div className="mx-12 flex-1">
           <img
-            src={require('@/assets/tum.png').default.src}
+            src={require('@/assets/images/partners/tum.png').default.src}
             alt="cert"
             className="mx-auto"
           />
         </div>
         <div className="mx-12 flex-1">
           <img
-            src={require('@/assets/goethe.png').default.src}
+            src={require('@/assets/images/partners/goethe.png').default.src}
             alt="cert"
             className="mx-auto"
           />
         </div>
         <div className="mx-12 flex-1">
           <img
-            src={require('@/assets/fub.png').default.src}
+            src={require('@/assets/images/partners/fub.png').default.src}
             alt="cert"
             className="mx-auto"
           />
@@ -30,21 +31,21 @@ const Partners = () => {
       <div className="my-32 items-center md:flex">
         <div className="mx-12 flex-1">
           <img
-            src={require('@/assets/wwu.png').default.src}
+            src={require('@/assets/images/partners/wwu.png').default.src}
             alt="cert"
             className="mx-auto"
           />
         </div>
         <div className="mx-12 flex-1">
           <img
-            src={require('@/assets/reedu.png').default.src}
+            src={require('@/assets/images/partners/reedu.png').default.src}
             alt="cert"
             className="mx-auto"
           />
         </div>
         <div className="mx-12 flex-1">
           <img
-            src={require('@/assets/gast.png').default.src}
+            src={require('@/assets/images/partners/gast.png').default.src}
             alt="cert"
             className="mx-auto"
           />

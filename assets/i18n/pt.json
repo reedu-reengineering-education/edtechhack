@@ -3,7 +3,7 @@
     "program": "Programa",
     "challenges": "Desafios",
     "prizes": "Prêmios",
-    "juri": "Juri e Mentores",
+    "jury": "Jury e Mentores",
     "supporters": "Apoiadores",
     "contact": "Contato"
   },
@@ -32,5 +32,16 @@
       "submit": "Apresentar um desafio",
       "apply": "Se necessário, solicite uma subvenção"
     }
+  },
+  "challenges": {
+    "title": "Os Desafios",
+    "submit": "Apresentar um desafio"
+  },
+  "prizes": {
+    "title": "Os prêmios"
+  },
+  "jury": {
+    "title": "O júri",
+    "description": "Descrição geral e o número de pessoas"
   }
 }
