@@ -1,7 +1,13 @@
+import { useRouter } from 'next/router'
+
 const Timeline = () => {
+  const router = useRouter()
+
+  const { timeline: t } = require(`@/assets/i18n/${router.locale}.json`)
+
   return (
-    <div className="" id="timeline">
-      <h1 className="text-center text-3xl">Timeline</h1>
+    <div className="pt-40" id="timeline">
+      <h1 className="text-center text-3xl">{t.title}</h1>
 
       <div className="md:flex">
         <div className="mx-8 flex-1">
@@ -9,22 +15,18 @@ const Timeline = () => {
             <li className="mr-8 pb-10">
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
               <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
-                Start
+                {t.start.title}
               </h2>
-              <p className="mb-4 ml-auto w-fit">May 31st of 2022</p>
-              <p className="my-4 ml-auto w-fit">
-                Submit a challenge and apply to join the Edtech Hackthon
-              </p>
+              <p className="mb-4 ml-auto w-fit">{t.start.date}</p>
+              <p className="my-4 ml-auto w-fit">{t.start.content}</p>
             </li>
             <li className="mr-8 pb-10">
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
               <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
-                Deadline for challenge submission
+                {t.deadline.title}
               </h2>
-              <p className="mb-4 ml-auto w-fit">August 01st of 2022</p>
-              <p className="ml-auto w-fit py-4">
-                Submit a challenge and apply to join the Edtech Hackthon
-              </p>
+              <p className="mb-4 ml-auto w-fit">{t.deadline.date}</p>
+              <p className="ml-auto w-fit py-4">{t.deadline.content}</p>
             </li>
           </ol>
           <ol className="relative border-r-4 border-royal-blue">
@@ -32,16 +34,13 @@ const Timeline = () => {
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
               <div className="md:translate-x-[calc(100%+4.5rem)]">
                 <h2 className="mb-2 ml-auto w-fit text-xl font-semibold md:ml-0 md:mr-auto">
-                  Edtech Hackthon - Day 01
+                  {t.day1.title}
                 </h2>
                 <p className="mb-4 ml-auto w-fit md:ml-0 md:mr-auto">
-                  20 August
+                  {t.day1.date}
                 </p>
                 <p className="my-4 ml-auto w-fit text-right md:mr-auto md:ml-0 md:text-left">
-                  Learning, meeting & hacking - Pre-hack hands-on workshops on
-                  technologies Lunch Welcome words DWIH & introduction &
-                  challenges Thinking and tinkering + Pitches + Group forming
-                  Pizza dinner
+                  {t.day1.content}
                 </p>
               </div>
             </li>
@@ -49,16 +48,13 @@ const Timeline = () => {
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
               <div className="md:translate-x-[calc(100%+4.5rem)]">
                 <h2 className="mb-2 ml-auto w-fit text-xl font-semibold md:ml-0 md:mr-auto">
-                  Edtech Hackthon - Day 02
+                  {t.day2.title}
                 </h2>
                 <p className="mb-4 ml-auto w-fit md:ml-0 md:mr-auto">
-                  21 August
+                  {t.day2.date}
                 </p>
                 <p className="my-4 ml-auto w-fit text-right md:mr-auto md:ml-0 md:text-left">
-                  Learning, meeting & hacking - Pre-hack hands-on workshops on
-                  technologies Lunch Welcome words DWIH & introduction &
-                  challenges Thinking and tinkering + Pitches + Group forming
-                  Pizza dinner
+                  {t.day2.content}
                 </p>
               </div>
             </li>
@@ -66,16 +62,13 @@ const Timeline = () => {
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
               <div className="md:translate-x-[calc(100%+4.5rem)]">
                 <h2 className="mb-2 ml-auto w-fit text-xl font-semibold md:ml-0 md:mr-auto">
-                  Edtech Hackthon - Day 03
+                  {t.day3.title}
                 </h2>
                 <p className="mb-4 ml-auto w-fit md:ml-0 md:mr-auto">
-                  22 August
+                  {t.day3.date}
                 </p>
                 <p className="my-4 ml-auto w-fit text-right md:mr-auto md:ml-0 md:text-left">
-                  Learning, meeting & hacking - Pre-hack hands-on workshops on
-                  technologies Lunch Welcome words DWIH & introduction &
-                  challenges Thinking and tinkering + Pitches + Group forming
-                  Pizza dinner
+                  {t.day3.content}
                 </p>
               </div>
             </li>

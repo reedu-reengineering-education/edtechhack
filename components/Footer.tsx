@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Facebook, Instagram, Twitter } from 'react-feather'
 
@@ -27,7 +28,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-1 items-center justify-center text-white md:justify-end">
-            <p>Contact</p>
+            <Link href="mailto:info@edtechhack.org">
+              <a className="">Contact</a>
+            </Link>
           </div>
         </div>
       </div>

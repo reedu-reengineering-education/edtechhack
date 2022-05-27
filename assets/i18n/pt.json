@@ -4,6 +4,7 @@
     "challenges": "Desafios",
     "prizes": "Prêmios",
     "jury": "Jury e Mentores",
+    "timeline": "Linha do tempo",
     "supporters": "Apoiadores",
     "contact": "Contato"
   },
@@ -49,5 +50,33 @@
   "mentors": {
     "title": "Os Mentores e Mediadores",
     "description": "Descrição geral sobre seu papel durante a hackathon"
+  },
+  "timeline": {
+    "title": "Linha do tempo",
+    "start": {
+      "title": "Início",
+      "date": "31 de maio de 2022",
+      "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
+    },
+    "deadline": {
+      "title": "Prazo para apresentação de contestação",
+      "date": "01 de agosto de 2022",
+      "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
+    },
+    "day1": {
+      "title": "Edtech Hackthon - Dia 01",
+      "date": "20 de agosto de 2022",
+      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo"
+    },
+    "day2": {
+      "title": "Edtech Hackthon - Dia 02",
+      "date": "21 de agosto de 2022",
+      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo"
+    },
+    "day3": {
+      "title": "Edtech Hackthon - Dia 03",
+      "date": "22 de agosto de 2022",
+      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo"
+    }
   }
 }

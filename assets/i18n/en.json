@@ -4,6 +4,7 @@
     "challenges": "Challenges",
     "prizes": "Prizes",
     "jury": "Jury and Mentors",
+    "timeline": "Timeline",
     "supporters": "Supporters",
     "contact": "Contact"
   },
@@ -49,5 +50,33 @@
   "mentors": {
     "title": "The Mentors and Mediators",
     "description": "General description about their role during the hackathon"
+  },
+  "timeline": {
+    "title": "Timeline",
+    "start": {
+      "title": "Start",
+      "date": "May 31st of 2022",
+      "content": "Submit a challenge and apply to join the Edtech Hackthon"
+    },
+    "deadline": {
+      "title": "Deadline for challenge submission",
+      "date": "August 01st of 2022",
+      "content": "Submit a challenge and apply to join the Edtech Hackthon"
+    },
+    "day1": {
+      "title": "Edtech Hackthon - Day 01",
+      "date": "August 20th of 2022",
+      "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
+    },
+    "day2": {
+      "title": "Edtech Hackthon - Day 02",
+      "date": "August 21st of 2022",
+      "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
+    },
+    "day3": {
+      "title": "Edtech Hackthon - Day 03",
+      "date": "August 22nd of 2022",
+      "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
+    }
   }
 }

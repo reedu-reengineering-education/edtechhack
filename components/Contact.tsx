@@ -1,5 +1,6 @@
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/outline'
+import Link from 'next/link'
 import { Button } from './Elements/Button'
 
 const Contact = () => {
@@ -13,7 +14,6 @@ const Contact = () => {
           <h2 className="my-2 text-xl font-semibold md:ml-auto md:w-fit">
             FAQ
           </h2>
-          <Button className="md:ml-auto">Contact us</Button>
         </div>
         <div className="mx-12 mt-8 flex-1 md:mt-0">
           <Disclosure>
@@ -54,6 +54,9 @@ const Contact = () => {
               </>
             )}
           </Disclosure>
+          <Link href="mailto:info@edtechhack.org">
+            <Button className="mx-auto mt-8">Contact us</Button>
+          </Link>
         </div>
       </div>
     </div>

@@ -15,8 +15,9 @@ const Navbar = () => {
     { name: t.challenges, href: '#challenges' },
     // { name: t.prizes, href: '#prizes' },
     { name: t.jury, href: '#jury-mentors' },
-    { name: t.supporters, href: '#supporters' },
+    { name: t.timeline, href: '#timeline' },
     { name: t.contact, href: '#contact' },
+    { name: t.supporters, href: '#supporters' },
   ]
 
   return (
@@ -84,17 +85,13 @@ const Navbar = () => {
                         // <Link key={item.name} href={item.href}>
                         <a
                           onClick={() => {
-                            console.log(
-                              document.getElementById(item.href.split('#')[1]),
-                            )
                             document
                               .getElementById(item.href.split('#')[1])
                               ?.scrollIntoView({ behavior: 'smooth' })
                           }}
                           key={item.name}
                           className={clsx(
-                            // router.pathname.includes(item.href) ? 'underline' : '',
-                            'px-3  py-2 text-sm font-medium text-white hover:underline lg:text-base',
+                            'cursor-pointer  px-3 py-2 text-sm font-medium text-white hover:underline lg:text-base',
                           )}
                           aria-current={
                             router.pathname.includes(item.href)
