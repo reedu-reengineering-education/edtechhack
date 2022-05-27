@@ -2,19 +2,61 @@
   {
     "image": "mario.jpeg",
     "name": "Mario Pesch",
-    "title": "M.Ed. Chemistry & Geography",
-    "tags": "#Science #Education"
+    "title": "",
+    "tags": ""
   },
   {
     "image": "kim.png",
     "name": "Artur Kim Shum",
-    "title": "B.A. Architecture & Urban Planning",
-    "tags": "#Innovation #Design"
+    "title": "",
+    "tags": ""
   },
   {
     "image": "felix.jpeg",
     "name": "Felix Erdmann",
-    "title": "M.Sc. Geoinformatics",
-    "tags": "#Software #UX"
+    "title": "",
+    "tags": ""
+  },
+  {
+    "image": "anna.jpg",
+    "name": "Anna",
+    "title": "",
+    "tags": ""
+  },
+  {
+    "image": "barto.jpeg",
+    "name": "Dr. Thomas Bartoschek",
+    "title": "",
+    "tags": ""
+  },
+  {
+    "image": "christian.jpeg",
+    "name": "Christian",
+    "title": "",
+    "tags": ""
+  },
+  {
+    "image": "kamilla.jpeg",
+    "name": "Kamilla",
+    "title": "",
+    "tags": ""
+  },
+  {
+    "image": "laura.jpeg",
+    "name": "Laura",
+    "title": "",
+    "tags": ""
+  },
+  {
+    "image": "maxi.jpeg",
+    "name": "Maxi",
+    "title": "",
+    "tags": ""
+  },
+  {
+    "image": "soeren.jpeg",
+    "name": "Sören",
+    "title": "",
+    "tags": ""
   }
 ]
