@@ -1,0 +1,20 @@
+[
+  {
+    "image": "mario.jpeg",
+    "name": "Mario Pesch",
+    "title": "M.Ed. Chemistry & Geography",
+    "tags": "#Science #Education"
+  },
+  {
+    "image": "kim.png",
+    "name": "Arthur Kim Shum",
+    "title": "Innovation Designer",
+    "tags": "#Innovation #Design"
+  },
+  {
+    "image": "felix.jpeg",
+    "name": "Felix Erdmann",
+    "title": "M.Sc. Geoinformatics",
+    "tags": "#Software #UX"
+  }
+]

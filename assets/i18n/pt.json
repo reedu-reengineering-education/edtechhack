@@ -45,5 +45,9 @@
   "jury": {
     "title": "O júri",
     "description": "Descrição geral e o número de pessoas"
+  },
+  "mentors": {
+    "title": "Os Mentores e Mediadores",
+    "description": "Descrição geral sobre seu papel durante a hackathon"
   }
 }
