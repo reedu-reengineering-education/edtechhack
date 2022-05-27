@@ -8,10 +8,12 @@
     "contact": "Contato"
   },
   "mainImage": {
-    "q1": "Você quer fazer parte de soluções tecnológicas e nacionais para desafios na área educacional?",
-    "q2": "Você tem um problema na educação que poderia ser resolvido com o apoio da tecnologia?"
+    "date": "20-22 de agosto de 2022",
+    "place": "São Paulo"
   },
   "program": {
+    "q1": "Você quer fazer parte de soluções tecnológicas e nacionais para desafios na área educacional?",
+    "q2": "Você tem um problema na educação que poderia ser resolvido com o apoio da tecnologia?",
     "whatIs": "O que é a EdTech Hackathon?",
     "whatKind": "Que tipo de problema estamos tentando resolver?",
     "participate": "Quem pode participar?",

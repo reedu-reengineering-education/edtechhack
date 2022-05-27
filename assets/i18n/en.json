@@ -8,10 +8,12 @@
     "contact": "Contact"
   },
   "mainImage": {
-    "q1": "Do you want to be part of tech-solutions for and national challenges in the educational area?",
-    "q2": "Do you have a problem in education that could be solved with the support of technology?"
+    "date": "August 20-22, 2022",
+    "place": "São Paulo"
   },
   "program": {
+    "q1": "Do you want to be part of tech-solutions for and national challenges in the educational area?",
+    "q2": "Do you have a problem in education that could be solved with the support of technology?",
     "whatIs": "What is the EdTech Hackathon?",
     "whatKind": "What kind of problem we are aiming to solve?",
     "participate": "Who can participate?",
