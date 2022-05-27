@@ -78,5 +78,11 @@
       "date": "August 22nd of 2022",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     }
+  },
+  "supporters": { "title": "Supporters" },
+  "partners": { "title": "Partners" },
+  "footer": {
+    "share": "Share",
+    "contact": "Contact"
   }
 }

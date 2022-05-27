@@ -1,9 +1,15 @@
+import { useRouter } from 'next/router'
+
 /* eslint-disable @next/next/no-img-element */
 const Partners = () => {
+  const router = useRouter()
+
+  const { partners: t } = require(`@/assets/i18n/${router.locale}.json`)
+
   return (
     <div className="">
       <div className="text-center">
-        <h1 className="text-3xl">Partners</h1>
+        <h1 className="text-3xl">{t.title}</h1>
       </div>
       <div className="my-32 items-center md:flex">
         <div className="mx-12 flex-1">

@@ -78,5 +78,11 @@
       "date": "22 de agosto de 2022",
       "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo"
     }
+  },
+  "supporters": { "title": "Apoiadores" },
+  "partners": { "title": "Parceiros" },
+  "footer": {
+    "share": "Compartilhe",
+    "contact": "Contato"
   }
 }
