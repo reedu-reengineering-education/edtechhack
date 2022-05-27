@@ -25,6 +25,7 @@ const Jury = () => {
               <Image
                 src={require(`@/assets/images/jury/${j.image}`)}
                 layout="responsive"
+                placeholder="blur"
                 alt="Jury Image"
               />
             </div>

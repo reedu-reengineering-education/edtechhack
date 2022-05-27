@@ -13,6 +13,7 @@ const MainImage = () => {
           src={require('@/assets/images/bg.png')}
           alt="Logo"
           layout="responsive"
+          placeholder="blur"
           className="overflow-hidden"
         />
       </div>

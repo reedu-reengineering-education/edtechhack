@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 /* eslint-disable @next/next/no-img-element */
 const Partners = () => {
@@ -12,47 +13,52 @@ const Partners = () => {
         <h1 className="text-3xl">{t.title}</h1>
       </div>
       <div className="my-32 items-center md:flex">
-        <div className="mx-12 flex-1">
-          <img
-            src={require('@/assets/images/partners/tum.png').default.src}
+        <div className="mx-12 flex-1 p-8 md:p-4 lg:p-8 xl:p-16 ">
+          <Image
+            src={require('@/assets/images/partners/tum.svg')}
             alt="cert"
+            layout="responsive"
+          />
+        </div>
+        <div className="mx-12 flex-1 p-8 md:p-4 lg:p-8 xl:p-16 ">
+          <Image
+            src={require('@/assets/images/partners/goethe.svg')}
+            alt="cert"
+            layout="responsive"
             className="mx-auto"
           />
         </div>
-        <div className="mx-12 flex-1">
-          <img
-            src={require('@/assets/images/partners/goethe.png').default.src}
+        <div className="mx-12 flex-1 p-8 md:p-4 lg:p-8 xl:p-16">
+          <Image
+            src={require('@/assets/images/partners/fub.svg')}
             alt="cert"
-            className="mx-auto"
-          />
-        </div>
-        <div className="mx-12 flex-1">
-          <img
-            src={require('@/assets/images/partners/fub.png').default.src}
-            alt="cert"
+            layout="responsive"
             className="mx-auto"
           />
         </div>
       </div>
       <div className="my-32 items-center md:flex">
-        <div className="mx-12 flex-1">
-          <img
-            src={require('@/assets/images/partners/wwu.png').default.src}
+        <div className="mx-12 flex-1 p-8 md:p-4 lg:p-8 xl:p-16 ">
+          <Image
+            src={require('@/assets/images/partners/wwu.svg')}
             alt="cert"
+            layout="responsive"
             className="mx-auto"
           />
         </div>
-        <div className="mx-12 flex-1">
-          <img
-            src={require('@/assets/images/partners/reedu.png').default.src}
+        <div className="mx-12 flex-1 p-8 md:p-4 lg:p-8 xl:p-16 ">
+          <Image
+            src={require('@/assets/images/partners/reedu.svg')}
             alt="cert"
+            layout="responsive"
             className="mx-auto"
           />
         </div>
-        <div className="mx-12 flex-1">
-          <img
-            src={require('@/assets/images/partners/gast.png').default.src}
+        <div className="mx-12 flex-1 p-8 md:p-4 lg:p-8 xl:p-16 ">
+          <Image
+            src={require('@/assets/images/partners/gast.svg')}
             alt="cert"
+            layout="responsive"
             className="mx-auto"
           />
         </div>

@@ -24,6 +24,7 @@ const Mentors = () => {
                 src={require(`@/assets/images/mentors/${m.image}`)}
                 layout="responsive"
                 alt="mentor"
+                placeholder="blur"
               />
             </div>
             <h2 className="my-4 text-center text-xl font-semibold">{m.name}</h2>
