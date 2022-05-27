@@ -18,11 +18,12 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="flex flex-1 items-center justify-center text-white">
+          <div className="flex flex-1 flex-col items-center justify-center text-white">
+            <p className="mb-4">Share</p>
             <div className="flex">
-              <Instagram />
-              <Facebook />
-              <Twitter />
+              <Instagram className="mx-2" />
+              <Facebook className="mx-2" />
+              <Twitter className="mx-2" />
             </div>
           </div>
           <div className="flex flex-1 items-center justify-center text-white md:justify-end">

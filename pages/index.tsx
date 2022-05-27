@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         <Program />
         <Bar />
         <Challenges />
-        <Prizes />
+        {/* <Prizes /> */}
         <Bar />
         <Jury />
         <Mentors />

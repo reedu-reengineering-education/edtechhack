@@ -1,7 +1,7 @@
 const Timeline = () => {
   return (
     <div className="" id="timeline">
-      <h1 className="text-center text-5xl">Timeline</h1>
+      <h1 className="text-center text-3xl">Timeline</h1>
 
       <div className="md:flex">
         <div className="mx-8 flex-1">
@@ -30,42 +30,54 @@ const Timeline = () => {
           <ol className="relative border-r-4 border-royal-blue">
             <li className="mr-8 pb-10">
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
-              <h2 className="mb-2 ml-auto w-fit text-xl font-semibold">
-                Edtech Hackthon - Day 01
-              </h2>
-              <p className="mb-4 ml-auto w-fit">XX/August</p>
-              <p className="my-4 ml-auto w-fit">
-                Learning, meeting & hacking - Pre-hack hands-on workshops on
-                technologies Lunch Welcome words DWIH & introduction &
-                challenges Thinking and tinkering + Pitches + Group forming
-                Pizza dinner
-              </p>
+              <div className="md:translate-x-[calc(100%+4.5rem)]">
+                <h2 className="mb-2 ml-auto w-fit text-xl font-semibold md:ml-0 md:mr-auto">
+                  Edtech Hackthon - Day 01
+                </h2>
+                <p className="mb-4 ml-auto w-fit md:ml-0 md:mr-auto">
+                  20 August
+                </p>
+                <p className="my-4 ml-auto w-fit text-right md:mr-auto md:ml-0 md:text-left">
+                  Learning, meeting & hacking - Pre-hack hands-on workshops on
+                  technologies Lunch Welcome words DWIH & introduction &
+                  challenges Thinking and tinkering + Pitches + Group forming
+                  Pizza dinner
+                </p>
+              </div>
             </li>
             <li className="mr-8 pb-10">
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
-              <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
-                Edtech Hackthon - Day 02
-              </h2>
-              <p className="mb-4 ml-auto w-fit">XX/August</p>
-              <p className="my-4 ml-auto w-fit">
-                Learning, meeting & hacking - Pre-hack hands-on workshops on
-                technologies Lunch Welcome words DWIH & introduction &
-                challenges Thinking and tinkering + Pitches + Group forming
-                Pizza dinner
-              </p>
+              <div className="md:translate-x-[calc(100%+4.5rem)]">
+                <h2 className="mb-2 ml-auto w-fit text-xl font-semibold md:ml-0 md:mr-auto">
+                  Edtech Hackthon - Day 02
+                </h2>
+                <p className="mb-4 ml-auto w-fit md:ml-0 md:mr-auto">
+                  21 August
+                </p>
+                <p className="my-4 ml-auto w-fit text-right md:mr-auto md:ml-0 md:text-left">
+                  Learning, meeting & hacking - Pre-hack hands-on workshops on
+                  technologies Lunch Welcome words DWIH & introduction &
+                  challenges Thinking and tinkering + Pitches + Group forming
+                  Pizza dinner
+                </p>
+              </div>
             </li>
             <li className="mr-8 pb-10">
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
-              <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
-                Edtech Hackthon - Day 03
-              </h2>
-              <p className="mb-4 ml-auto w-fit">XX/August</p>
-              <p className="my-4 ml-auto w-fit">
-                Learning, meeting & hacking - Pre-hack hands-on workshops on
-                technologies Lunch Welcome words DWIH & introduction &
-                challenges Thinking and tinkering + Pitches + Group forming
-                Pizza dinner
-              </p>
+              <div className="md:translate-x-[calc(100%+4.5rem)]">
+                <h2 className="mb-2 ml-auto w-fit text-xl font-semibold md:ml-0 md:mr-auto">
+                  Edtech Hackthon - Day 03
+                </h2>
+                <p className="mb-4 ml-auto w-fit md:ml-0 md:mr-auto">
+                  22 August
+                </p>
+                <p className="my-4 ml-auto w-fit text-right md:mr-auto md:ml-0 md:text-left">
+                  Learning, meeting & hacking - Pre-hack hands-on workshops on
+                  technologies Lunch Welcome words DWIH & introduction &
+                  challenges Thinking and tinkering + Pitches + Group forming
+                  Pizza dinner
+                </p>
+              </div>
             </li>
           </ol>
         </div>

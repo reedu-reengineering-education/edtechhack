@@ -20,7 +20,7 @@ const Program = () => {
           </div>
         </div>
       </div>
-      <div id="program">
+      <div id="program" className="pt-16">
         <div className="my-32 md:flex">
           <div className="mx-12 flex-1">
             <h2 className="my-4 text-center text-2xl font-semibold md:ml-auto md:w-fit">

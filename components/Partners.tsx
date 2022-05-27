@@ -3,7 +3,7 @@ const Partners = () => {
   return (
     <div className="">
       <div className="text-center">
-        <h1 className="text-5xl">Partners</h1>
+        <h1 className="text-3xl">Partners</h1>
       </div>
       <div className="my-32 items-center md:flex">
         <div className="mx-12 flex-1">

@@ -10,9 +10,9 @@ const Challenges = () => {
   const challenges = require(`@/assets/collections/challenges/${router.locale}.json`)
 
   return (
-    <div className="pt-28 text-center" id="challenges">
-      <h1 className="text-5xl">{t.title}</h1>
-      <div className="my-32 md:flex">
+    <div className="pt-32 text-center" id="challenges">
+      <h1 className="mt-16 text-3xl">{t.title}</h1>
+      <div className="my-16 md:flex">
         {challenges.map((c: any, i: number) => (
           <div className="mx-12 flex-1 text-center" key={i}>
             <img

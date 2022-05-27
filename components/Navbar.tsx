@@ -13,7 +13,7 @@ const Navbar = () => {
   const navigation = [
     { name: t.program, href: '#program' },
     { name: t.challenges, href: '#challenges' },
-    { name: t.prizes, href: '#prizes' },
+    // { name: t.prizes, href: '#prizes' },
     { name: t.jury, href: '#jury-mentors' },
     { name: t.supporters, href: '#supporters' },
     { name: t.contact, href: '#contact' },
@@ -81,21 +81,30 @@ const Navbar = () => {
                     </div>
                     <div className="flex space-x-4">
                       {navigation.map(item => (
-                        <Link key={item.name} href={item.href}>
-                          <a
-                            className={clsx(
-                              // router.pathname.includes(item.href) ? 'underline' : '',
-                              'px-3  py-2 text-sm font-medium text-white hover:underline lg:text-base',
-                            )}
-                            aria-current={
-                              router.pathname.includes(item.href)
-                                ? 'page'
-                                : undefined
-                            }
-                          >
-                            {item.name}
-                          </a>
-                        </Link>
+                        // <Link key={item.name} href={item.href}>
+                        <a
+                          onClick={() => {
+                            console.log(
+                              document.getElementById(item.href.split('#')[1]),
+                            )
+                            document
+                              .getElementById(item.href.split('#')[1])
+                              ?.scrollIntoView({ behavior: 'smooth' })
+                          }}
+                          key={item.name}
+                          className={clsx(
+                            // router.pathname.includes(item.href) ? 'underline' : '',
+                            'px-3  py-2 text-sm font-medium text-white hover:underline lg:text-base',
+                          )}
+                          aria-current={
+                            router.pathname.includes(item.href)
+                              ? 'page'
+                              : undefined
+                          }
+                        >
+                          {item.name}
+                        </a>
+                        // </Link>
                       ))}
                     </div>
                   </div>
