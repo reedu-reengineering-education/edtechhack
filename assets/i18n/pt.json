@@ -3,9 +3,9 @@
     "program": "Programa",
     "challenges": "Desafios",
     "prizes": "Prêmios",
-    "jury": "Jury e Mentores",
+    "jury": "Júri",
     "timeline": "Linha do tempo",
-    "supporters": "Apoiadores",
+    "supporters": "Apoio",
     "contact": "Contato"
   },
   "mainImage": {
@@ -13,32 +13,32 @@
     "place": "São Paulo"
   },
   "program": {
-    "q1": "Você quer fazer parte de soluções tecnológicas e nacionais para desafios na área educacional?",
-    "q2": "Você tem um problema na educação que poderia ser resolvido com o apoio da tecnologia?",
-    "whatIs": "O que é a EdTech Hackathon?",
-    "whatKind": "Que tipo de problema estamos tentando resolver?",
+    "q1": "Você quer fazer parte de soluções tecnológicas para desafios na área educacional?",
+    "q2": "Você tem um problema na educação que poderia ser resolvido com o através da tecnologia?",
+    "whatIs": "O que é Edtech Hackathon?",
+    "whatKind": "Quais são as questões que queremos abordar?",
     "participate": "Quem pode participar?",
     "program": {
       "title": "O programa",
-      "description": "A Edtech Hackathon é um evento para desenvolver soluções tecnológicas para os desafios locais e globais na educação. A fase on-line é o momento em que todos podem apresentar uma idéia de desafio aqui. A fase presencial, que acontecerá de 22 a 24 de agosto no Instituto Goethe em São Paulo. Serão dois dias exclusivos para os participantes desenvolverem soluções apoiadas por mentores e oficinas e pizza."
+      "description": "O Hackthon Edtech é um evento para desenvolver soluções tecnológicas para os desafios locais e globais na Educação. Qualquer pessoa interessada no tema pode enviar os desafios. A fase presencial acontecerá de 22 a 24 de agosto no Instituto Goethe em São Paulo. Serão dois dias para os participantes desenvolverem soluções tecnológicas apoiadas por mentores, infra-estrutura e pizza."
     },
     "challenges": {
       "title": "Os Desafios",
-      "description": "Os desafios relacionados à educação e tecnologia podem ser apresentados on-line e por todos, alguns serão selecionados pelo júri e serão trabalhados pelos participantes hackthon durante dois dias. As soluções propostas durante a hackthon serão enviadas aos autores e publicadas aqui."
+      "description": "Os desafios relacionados à educação e tecnologia podem ser enviados por aqui e por todos os interessados. Alguns desafios serão selecionados pelo júri e serão abordados pelos participantes do hackthon durante dois dias. As soluções finais propostas durante a hackthon serão enviadas aos autores e publicadas aqui."
     },
     "participants": {
       "title": "Participantes",
-      "description": "Os 30 participantes de várias partes do Brasil serão selecionados pelo comitê organizador. Apoiaremos financeiramente candidaturas de fora da área expandida de São Paulo e de todo o Brasil com uma bolsa de mobilidade."
+      "description": "Os 30 participantes de diversas regiões do Brasil serão selecionados pelo comitê organizador. O programa incentiva candidatos de diversas áreas do conhecimento e apoiaremos financeiramente candidaturas de fora da área expandida de São Paulo e de todo o Brasil com bolsas de mobilidade."
     },
     "button": {
-      "join": "Junte-se à Hackathon",
-      "submit": "Apresentar um desafio",
-      "apply": "Se necessário, solicite uma subvenção"
+      "join": "Participe do Hackthon",
+      "submit": "Envie um desafio",
+      "apply": "Caso necessário, solicite uma bolsa-mobilidade"
     }
   },
   "challenges": {
     "title": "Os Desafios",
-    "submit": "Apresentar um desafio"
+    "submit": "Envie um desafio"
   },
   "prizes": {
     "title": "Os prêmios"
@@ -79,7 +79,7 @@
       "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo"
     }
   },
-  "supporters": { "title": "Apoiadores" },
+  "supporters": { "title": "Apoio" },
   "partners": { "title": "Parceiros" },
   "footer": {
     "share": "Compartilhe",
