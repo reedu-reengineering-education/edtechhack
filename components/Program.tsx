@@ -26,7 +26,14 @@ const Program = () => {
             <h2 className="my-4 text-center text-2xl font-semibold md:ml-auto md:w-fit">
               {t.whatIs}
             </h2>
-            <Button className="mx-auto md:ml-auto md:mr-0">
+            <Button
+              className="mx-auto md:ml-auto md:mr-0"
+              onClick={() =>
+                document
+                  .getElementById('registration')
+                  ?.scrollIntoView({ behavior: 'smooth' })
+              }
+            >
               {t.button.join}
             </Button>
           </div>
@@ -40,7 +47,14 @@ const Program = () => {
             <h2 className="my-4 text-center text-2xl font-semibold md:ml-auto md:w-fit">
               {t.whatKind}
             </h2>
-            <Button className="mx-auto md:ml-auto md:mr-0">
+            <Button
+              className="mx-auto md:ml-auto md:mr-0"
+              onClick={() =>
+                document
+                  .getElementById('registration')
+                  ?.scrollIntoView({ behavior: 'smooth' })
+              }
+            >
               {t.button.submit}
             </Button>
           </div>
@@ -56,7 +70,14 @@ const Program = () => {
             <h2 className="my-4 text-center text-2xl font-semibold md:ml-auto md:w-fit">
               {t.participate}
             </h2>
-            <Button className="mx-auto md:ml-auto md:mr-0">
+            <Button
+              className="mx-auto md:ml-auto md:mr-0"
+              onClick={() =>
+                document
+                  .getElementById('registration')
+                  ?.scrollIntoView({ behavior: 'smooth' })
+              }
+            >
               {t.button.apply}
             </Button>
           </div>

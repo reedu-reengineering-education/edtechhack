@@ -81,6 +81,7 @@
   },
   "supporters": { "title": "Apoio" },
   "partners": { "title": "Parceiros" },
+  "registration": { "title": "Registro" },
   "footer": {
     "share": "Compartilhe",
     "contact": "Contato"

@@ -25,7 +25,16 @@ const Challenges = () => {
           </div>
         ))}
       </div>
-      <Button className="mx-auto">{t.submit}</Button>
+      <Button
+        className="mx-auto"
+        onClick={() =>
+          document
+            .getElementById('registration')
+            ?.scrollIntoView({ behavior: 'smooth' })
+        }
+      >
+        {t.submit}
+      </Button>
     </div>
   )
 }

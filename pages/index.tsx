@@ -11,6 +11,8 @@ import Supporters from '@/components/Supporters'
 import Partners from '@/components/Partners'
 import MainImage from '@/components/MainImage'
 import Head from 'next/head'
+import Script from 'next/script'
+import Registration from '@/components/Registration'
 
 const Home: NextPage = () => {
   return (
@@ -45,6 +47,7 @@ const Home: NextPage = () => {
         <Bar />
         <Supporters />
         <Partners />
+        <Registration />
       </main>
     </div>
   )
