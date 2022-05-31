@@ -9,7 +9,7 @@ const Mentors = () => {
   const mentors = require(`@/assets/collections/mentors/${router.locale}.json`)
 
   return (
-    <div className="my-32 lg:flex">
+    <div className="lg:flex">
       <div className="visible mx-12 flex-1 lg:hidden">
         <h2 className="my-4 text-center text-2xl font-semibold lg:w-fit">
           {t.title}

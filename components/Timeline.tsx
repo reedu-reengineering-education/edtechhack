@@ -6,7 +6,7 @@ const Timeline = () => {
   const { timeline: t } = require(`@/assets/i18n/${router.locale}.json`)
 
   return (
-    <div className="pt-40" id="timeline">
+    <div id="timeline">
       <h1 className="text-center text-3xl">{t.title}</h1>
 
       <div className="md:flex">

@@ -4,31 +4,31 @@
     "challenges": "Desafios",
     "prizes": "Prêmios",
     "jury": "Júri",
-    "timeline": "Linha do tempo",
+    "timeline": "Cronograma",
     "supporters": "Apoio",
     "contact": "Contato"
   },
   "mainImage": {
-    "date": "20-22 de agosto de 2022",
-    "place": "São Paulo"
+    "date": "20-22 de agosto",
+    "place": "em São Paulo"
   },
   "program": {
     "q1": "Você quer fazer parte de soluções tecnológicas para desafios na área educacional?",
-    "q2": "Você tem um problema na educação que poderia ser resolvido com o através da tecnologia?",
+    "q2": "Você tem um problema na educação que poderia ser resolvido através da tecnologia?",
     "whatIs": "O que é Edtech Hackathon?",
     "whatKind": "Quais são as questões que queremos abordar?",
     "participate": "Quem pode participar?",
     "program": {
       "title": "O programa",
-      "description": "O Hackthon Edtech é um evento para desenvolver soluções tecnológicas para os desafios locais e globais na Educação. Qualquer pessoa interessada no tema pode enviar os desafios. A fase presencial acontecerá de 22 a 24 de agosto no Instituto Goethe em São Paulo. Serão dois dias para os participantes desenvolverem soluções tecnológicas apoiadas por mentores, infra-estrutura e pizza."
+      "description": "O Hackthon Edtech é um evento para desenvolver soluções tecnológicas para desafios locais e globais na Educação. Qualquer pessoa interessada no tema pode enviar desafios. A fase presencial acontecerá de 22 a 24 de agosto no Instituto Goethe em São Paulo. Serão dois dias de Hackthon para os participantes desenvolverem soluções tecnológicas apoiados por mentores, infra-estrutura e pizza."
     },
     "challenges": {
       "title": "Os Desafios",
-      "description": "Os desafios relacionados à educação e tecnologia podem ser enviados por aqui e por todos os interessados. Alguns desafios serão selecionados pelo júri e serão abordados pelos participantes do hackthon durante dois dias. As soluções finais propostas durante a hackthon serão enviadas aos autores e publicadas aqui."
+      "description": "Os desafios relacionados à educação e a tecnologia podem ser enviados por todos os interessados. Alguns desafios serão selecionados pelo júri e abordados pelos participantes do Hackthon durante a fase presencial. As soluções finais serão enviadas aos autores e publicadas aqui."
     },
     "participants": {
       "title": "Participantes",
-      "description": "Os 30 participantes de diversas regiões do Brasil serão selecionados pelo comitê organizador. O programa incentiva candidatos de diversas áreas do conhecimento e apoiaremos financeiramente candidaturas de fora da área expandida de São Paulo e de todo o Brasil com bolsas de mobilidade."
+      "description": "Os 30 participantes de diversas regiões do Brasil serão selecionados pelo comitê organizador. O programa incentiva candidatas de diversas áreas do conhecimento e apoia financeiramente candidaturas de fora da área expandida de São Paulo e de todo o Brasil com bolsas de mobilidade."
     },
     "button": {
       "join": "Participe do Hackthon",
@@ -52,36 +52,36 @@
     "description": "Descrição geral sobre seu papel durante a hackathon"
   },
   "timeline": {
-    "title": "Linha do tempo",
+    "title": "Cronograma",
     "start": {
       "title": "Início",
-      "date": "31 de maio de 2022",
+      "date": "31 de maio",
       "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
     },
     "deadline": {
-      "title": "Prazo para apresentação de contestação",
-      "date": "01 de agosto de 2022",
+      "title": "Prazo para envio dos desafios e da inscrição para o Hackthon",
+      "date": "01 de agosto",
       "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
     },
     "day1": {
       "title": "Edtech Hackthon - Dia 01",
-      "date": "20 de agosto de 2022",
-      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo"
+      "date": "20 de agosto",
+      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Palestras, encontro e grupos de trabalho - Oficina sobre tecnologias e educação + Almoço + Boas-vindas DWIH + Introdução & desafios + Pitches + Finalização do dia com pizza"
     },
     "day2": {
       "title": "Edtech Hackthon - Dia 02",
-      "date": "21 de agosto de 2022",
-      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo"
+      "date": "21 de agosto",
+      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Investidores e Ecossistema de inovação brasileiro - Apresentação e troca com os investidores + Almoço + Apresentação do ecossistema de Startups + Finalização do dia com churrasco"
     },
     "day3": {
       "title": "Edtech Hackthon - Dia 03",
-      "date": "22 de agosto de 2022",
-      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo"
+      "date": "22 de agosto",
+      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Apresentação final e premiação - Almoço + Apresentação final ao Júri + Keynotes + Premiação dos vencedores e celebração"
     }
   },
   "supporters": { "title": "Apoio" },
   "partners": { "title": "Parceiros" },
-  "registration": { "title": "Registro" },
+  "registration": { "title": "Formulário de registro" },
   "footer": {
     "share": "Compartilhe",
     "contact": "Contato"

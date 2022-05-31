@@ -1,3 +1,4 @@
+import { scrollToTargetAdjusted } from '@/utils'
 import { useRouter } from 'next/router'
 import { Button } from './Elements/Button'
 
@@ -20,8 +21,8 @@ const Program = () => {
           </div>
         </div>
       </div>
-      <div id="program" className="pt-16">
-        <div className="my-32 md:flex">
+      <div id="program">
+        <div className="mb-32 md:flex">
           <div className="mx-12 flex-1">
             <h2 className="my-4 text-center text-2xl font-semibold md:ml-auto md:w-fit">
               {t.whatIs}
@@ -29,9 +30,7 @@ const Program = () => {
             <Button
               className="mx-auto md:ml-auto md:mr-0"
               onClick={() =>
-                document
-                  .getElementById('registration')
-                  ?.scrollIntoView({ behavior: 'smooth' })
+                scrollToTargetAdjusted(document.getElementById('registration'))
               }
             >
               {t.button.join}
@@ -50,9 +49,7 @@ const Program = () => {
             <Button
               className="mx-auto md:ml-auto md:mr-0"
               onClick={() =>
-                document
-                  .getElementById('registration')
-                  ?.scrollIntoView({ behavior: 'smooth' })
+                scrollToTargetAdjusted(document.getElementById('registration'))
               }
             >
               {t.button.submit}
@@ -73,9 +70,7 @@ const Program = () => {
             <Button
               className="mx-auto md:ml-auto md:mr-0"
               onClick={() =>
-                document
-                  .getElementById('registration')
-                  ?.scrollIntoView({ behavior: 'smooth' })
+                scrollToTargetAdjusted(document.getElementById('registration'))
               }
             >
               {t.button.apply}

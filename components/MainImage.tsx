@@ -18,8 +18,8 @@ const MainImage = () => {
         />
       </div>
       <div className="absolute left-0 top-0 flex h-full w-full items-center justify-center">
-        <div className="m-4 rounded-xl p-4 text-white shadow-lg backdrop-blur lg:mx-8 lg:p-12">
-          <p className="text-center text-2xl font-bold md:text-6xl lg:text-8xl">
+        <div className="m-4 rounded-xl p-4 text-white backdrop-blur lg:mx-8 lg:p-12">
+          <p className="text-center text-2xl font-bold md:text-4xl lg:text-6xl">
             {t.date}
             <br />
             {t.place}

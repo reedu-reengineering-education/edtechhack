@@ -5,7 +5,7 @@ import { Button } from './Elements/Button'
 
 const Contact = () => {
   return (
-    <div className="pt-28" id="contact">
+    <div id="contact">
       <div className="text-center">
         <h1 className="mt-12 text-3xl">Questions</h1>
       </div>

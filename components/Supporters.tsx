@@ -8,7 +8,7 @@ const Supporters = () => {
   const { supporters: t } = require(`@/assets/i18n/${router.locale}.json`)
 
   return (
-    <div className="pt-28" id="supporters">
+    <div id="supporters">
       <div className="text-center">
         <h1 className="mt-12 text-3xl">{t.title}</h1>
       </div>

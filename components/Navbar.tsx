@@ -4,6 +4,7 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import { scrollToTargetAdjusted } from '@/utils'
 
 const Navbar = () => {
   const router = useRouter()
@@ -27,7 +28,7 @@ const Navbar = () => {
     >
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-8" id="navbar">
             <div className="relative flex items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
@@ -85,9 +86,9 @@ const Navbar = () => {
                         // <Link key={item.name} href={item.href}>
                         <a
                           onClick={() => {
-                            document
-                              .getElementById(item.href.split('#')[1])
-                              ?.scrollIntoView({ behavior: 'smooth' })
+                            scrollToTargetAdjusted(
+                              document.getElementById(item.href.split('#')[1]),
+                            )
                           }}
                           key={item.name}
                           className={clsx(

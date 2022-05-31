@@ -9,7 +9,7 @@ const Prizes = () => {
   const prizes = require(`@/assets/collections/prizes/${router.locale}.json`)
 
   return (
-    <div className="pt-28 text-center" id="prizes">
+    <div className="text-center" id="prizes">
       <h1 className="text-3xl">{t.title}</h1>
       <div className="my-32 md:flex">
         {prizes.map((p: any, i: any) => (
