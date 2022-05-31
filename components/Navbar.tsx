@@ -116,8 +116,11 @@ const Navbar = () => {
               {navigation.map(item => (
                 <Disclosure.Button
                   key={item.name}
-                  as="a"
-                  href={item.href}
+                  onClick={() => {
+                    scrollToTargetAdjusted(
+                      document.getElementById(item.href.split('#')[1]),
+                    )
+                  }}
                   className={clsx(
                     'block px-3  py-2 text-sm font-medium text-white hover:underline',
                   )}
