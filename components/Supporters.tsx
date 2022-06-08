@@ -12,7 +12,7 @@ const Supporters = () => {
       <div className="text-center">
         <h1 className="mt-12 text-3xl">{t.title}</h1>
       </div>
-      <div className="my-32 md:flex md:flex-wrap">
+      <div className="md:flex md:flex-wrap">
         <div className="mx-12 my-8 flex-1 md:mx-36">
           <div className="mx-auto max-w-xs">
             <Image
