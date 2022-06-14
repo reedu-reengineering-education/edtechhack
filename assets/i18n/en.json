@@ -9,7 +9,7 @@
     "contact": "Contact"
   },
   "mainImage": {
-    "date": "August 20-22, 2022",
+    "date": "August 22-24, 2022",
     "place": "São Paulo"
   },
   "program": {
@@ -79,9 +79,15 @@
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     }
   },
-  "supporters": { "title": "Supporters" },
-  "partners": { "title": "Partners" },
-  "registration": { "title": "Registration" },
+  "supporters": {
+    "title": "Supporters"
+  },
+  "partners": {
+    "title": "Partners"
+  },
+  "registration": {
+    "title": "Registration"
+  },
   "footer": {
     "share": "Share",
     "contact": "Contact"

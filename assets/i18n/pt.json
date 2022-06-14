@@ -9,7 +9,7 @@
     "contact": "Contato"
   },
   "mainImage": {
-    "date": "20-22 de agosto",
+    "date": "22-24 de agosto",
     "place": "em São Paulo"
   },
   "program": {
@@ -79,9 +79,15 @@
       "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Apresentação final e premiação - Almoço + Apresentação final ao Júri + Keynotes + Premiação dos vencedores e celebração"
     }
   },
-  "supporters": { "title": "Apoio" },
-  "partners": { "title": "Parceiros" },
-  "registration": { "title": "Formulário de registro" },
+  "supporters": {
+    "title": "Apoio"
+  },
+  "partners": {
+    "title": "Parceiros"
+  },
+  "registration": {
+    "title": "Formulário de registro"
+  },
   "footer": {
     "share": "Compartilhe",
     "contact": "Contato"
