@@ -16,7 +16,7 @@ const Supporters = () => {
         <div className="mx-12 my-8 flex-1 md:mx-36">
           <div className="mx-auto max-w-xs">
             <Image
-              src={require('@/assets/images/supporters/dwih.png')}
+              src={require('@/assets/images/supporters/dwih_english.png')}
               alt="cert"
               layout="responsive"
               placeholder="blur"

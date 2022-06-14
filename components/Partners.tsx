@@ -15,7 +15,7 @@ const Partners = () => {
       <div className="items-center md:flex">
         <div className="mx-12 flex-1 p-8 md:p-4 lg:p-8 xl:p-16 ">
           <Image
-            src={require('@/assets/images/partners/tum.svg')}
+            src={require('@/assets/images/partners/tum_logo_en.png')}
             alt="cert"
             layout="responsive"
           />
