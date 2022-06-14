@@ -58,6 +58,11 @@
       "date": "May 31st of 2022",
       "content": "Submit a challenge and apply to join the Edtech Hackthon"
     },
+    "pocketevent": {
+      "title": "Webinar",
+      "date": "June 22nd of 2022 - 10AM (BRT) | 3PM (CEST) ",
+      "content": "Get to know the state of the art of digitalization in Education with German Universities and Hackathon idea."
+    },
     "deadline": {
       "title": "Deadline for challenge submission",
       "date": "August 01st of 2022",
@@ -65,17 +70,17 @@
     },
     "day1": {
       "title": "Edtech Hackthon - Day 01",
-      "date": "August 20th of 2022",
+      "date": "August 22nd of 2022",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     },
     "day2": {
       "title": "Edtech Hackthon - Day 02",
-      "date": "August 21st of 2022",
+      "date": "August 23rd of 2022",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     },
     "day3": {
       "title": "Edtech Hackthon - Day 03",
-      "date": "August 22nd of 2022",
+      "date": "August 24th of 2022",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     }
   },

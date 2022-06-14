@@ -23,6 +23,24 @@ const Timeline = () => {
             <li className="mr-8 pb-10">
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
               <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
+                {t.pocketevent.title}
+              </h2>
+              <p className="mb-4 ml-auto w-fit">{t.pocketevent.date}</p>
+              <p className="ml-auto w-fit py-4">
+                {t.pocketevent.content}{' '}
+                <a
+                  href="https://bit.ly/EdTechPreEvent"
+                  className="text-blue-600 no-underline hover:underline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  More Information and Signup
+                </a>
+              </p>
+            </li>
+            <li className="mr-8 pb-10">
+              <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
+              <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
                 {t.deadline.title}
               </h2>
               <p className="mb-4 ml-auto w-fit">{t.deadline.date}</p>

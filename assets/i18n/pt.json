@@ -58,6 +58,11 @@
       "date": "31 de maio",
       "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
     },
+    "pocketevent": {
+      "title": "Webinar",
+      "date": "22 de junho de 2022 - 10h (BRT) | 15h (CEST) ",
+      "content": "Get to know the state of the art of digitalization in Education with German Universities and Hackathon idea."
+    },
     "deadline": {
       "title": "Prazo para envio dos desafios e da inscrição para o Hackthon",
       "date": "01 de agosto",
@@ -65,17 +70,17 @@
     },
     "day1": {
       "title": "Edtech Hackthon - Dia 01",
-      "date": "20 de agosto",
+      "date": "22 de agosto",
       "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Palestras, encontro e grupos de trabalho - Oficina sobre tecnologias e educação + Almoço + Boas-vindas DWIH + Introdução & desafios + Pitches + Finalização do dia com pizza"
     },
     "day2": {
       "title": "Edtech Hackthon - Dia 02",
-      "date": "21 de agosto",
+      "date": "22 de agosto",
       "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Investidores e Ecossistema de inovação brasileiro - Apresentação e troca com os investidores + Almoço + Apresentação do ecossistema de Startups + Finalização do dia com churrasco"
     },
     "day3": {
       "title": "Edtech Hackthon - Dia 03",
-      "date": "22 de agosto",
+      "date": "23 de agosto",
       "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Apresentação final e premiação - Almoço + Apresentação final ao Júri + Keynotes + Premiação dos vencedores e celebração"
     }
   },
