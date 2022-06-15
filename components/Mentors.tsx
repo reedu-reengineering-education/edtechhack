@@ -16,6 +16,9 @@ const Mentors = () => {
         </h2>
         <p className="text-center lg:w-fit">{t.description}</p>
       </div>
+      <h2 className="my-4 text-center text-2xl font-semibold lg:w-fit">
+        {t.title}
+      </h2>
       <div className="flex flex-1 flex-wrap justify-center">
         {mentors.map((m: any, i: number) => (
           <div key={i} className="flex flex-col items-center p-4">
@@ -35,12 +38,10 @@ const Mentors = () => {
           </div>
         ))}
       </div>
-      <div className="mx-12 hidden flex-1 lg:block">
-        <h2 className="my-4 text-center text-2xl font-semibold lg:w-fit">
-          {t.title}
-        </h2>
+      {/* <div className="mx-12 hidden flex-1 lg:block">
+
         <p className="text-center lg:w-fit">{t.description}</p>
-      </div>
+      </div> */}
     </div>
   )
 }
