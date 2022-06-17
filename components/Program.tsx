@@ -1,6 +1,8 @@
 import { scrollToTargetAdjusted } from '@/utils'
 import { useRouter } from 'next/router'
 import { Button } from './Elements/Button'
+import Image from 'next/image'
+import Bar from '@/components/Elements/Bar'
 
 const Program = () => {
   const router = useRouter()
@@ -81,6 +83,83 @@ const Program = () => {
               {t.participants.title}
             </h2>
             <p>{t.participants.description}</p>
+          </div>
+        </div>
+        <Bar />
+        <div className="my-32 md:flex">
+          <div className="mx-12 flex-1">
+            <h2 className="my-4 text-2xl font-semibold">
+              {t.pocketevent.title}
+            </h2>
+            <div>
+              <p>
+                This pre-event webinar will showcase the state of the art of
+                digitalization in Education from the perspective of the two
+                German Universities and will also explain the hackathon idea and
+                inform about the program and the ways to participate.
+              </p>
+              <br />
+              <p>Program (local Brazilian CET time): </p>
+              <p>10am (Brazilian time) / 15 hours (CEST)</p>
+              <br />
+              <p>10:00 AM (BRT) | Welcome &amp; Opening Remarks</p>
+              <br />
+              <p>
+                Welcome &amp; Moderation: Sören Metz (Technical University of
+                Munich) and Christian Lazar (Freie Universität Berlin)
+              </p>
+              <br />
+              <p>
+                10:15 (BRT) | Digital Education - Quo vadis. Insights from two
+                German universities of Excellence
+              </p>
+              <ul>
+                <li>
+                  - Prof. Dr. Daniel Pittich (Assitant Professorship of
+                  Technical Education - TUM)
+                </li>
+                <li>
+                  - Dr. Antje Brock (Institut Futur, Freie Universität Berlin)
+                </li>
+              </ul>
+
+              <br />
+              <p>10:45 (BRT) | German-Brazilian EdTech Hackathon</p>
+              <ul>
+                <li>
+                  - Thomas Bartoschek (re:edu) - presentation of the challenge
+                  and the German-Brazilian EdTech Hackathon
+                </li>
+              </ul>
+
+              <br />
+              <p>11:00 AM (BRT) | Q&amp;A Session with all panelists</p>
+              <br />
+              <p>
+                11:30 AM (BRT) | Wrap-Up Closing Remarks, Summary and Wrap Up
+              </p>
+              <br />
+              <p>
+                The webinar will be conducted in English. Questions can be asked
+                by the audience in the webinar
+              </p>
+              <a
+                href="https://bit.ly/EdTechPreEvent"
+                className="text-blue-600 no-underline hover:underline"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Signup for the event
+              </a>
+            </div>
+          </div>
+          <div className="mx-12 flex-1">
+            <Image
+              src={require(`@/assets/images/pocketevent.png`)}
+              layout="responsive"
+              alt="mentor"
+              placeholder="blur"
+            />
           </div>
         </div>
       </div>

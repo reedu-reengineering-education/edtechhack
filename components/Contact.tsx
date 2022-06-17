@@ -16,7 +16,7 @@ const Contact = () => {
           </h2>
         </div>
         <div className="mx-12 mt-8 flex-1 md:mt-0">
-          <Disclosure>
+          {/* <Disclosure>
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex w-full justify-between border-b-2 border-royal-blue py-2 text-left text-sm font-medium text-royal-blue focus:outline-none">
@@ -53,7 +53,7 @@ const Contact = () => {
                 </Disclosure.Panel>
               </>
             )}
-          </Disclosure>
+          </Disclosure> */}
           <Link href="mailto:info@edtechhack.org">
             <Button className="mx-auto mt-8">Contact us</Button>
           </Link>

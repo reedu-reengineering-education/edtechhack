@@ -2,61 +2,61 @@
   {
     "image": "mario.jpeg",
     "name": "Mario Pesch",
-    "title": "",
+    "title": "University of Muenster",
     "tags": ""
   },
   {
     "image": "kim.png",
     "name": "Artur Kim Shum",
-    "title": "",
-    "tags": ""
+    "title": "re:edu GmbH & Co KG.",
+    "tags": "Design, UX"
   },
   {
     "image": "felix.jpeg",
     "name": "Felix Erdmann",
-    "title": "",
-    "tags": ""
+    "title": "re:edu GmbH & Co KG.",
+    "tags": "Web and App development"
   },
   {
     "image": "anna.jpg",
     "name": "Anna Maria Schneider",
-    "title": "",
+    "title": "TUM Munich",
     "tags": ""
   },
   {
     "image": "barto.jpeg",
     "name": "Dr. Thomas Bartoschek",
-    "title": "",
+    "title": "University of Muenster",
     "tags": ""
   },
   {
     "image": "christian.jpeg",
     "name": "Christian Lazar",
-    "title": "",
+    "title": "FU Berlin",
     "tags": ""
   },
   {
     "image": "kamilla.jpeg",
     "name": "Kamilla Tenório",
-    "title": "",
-    "tags": ""
+    "title": "FU Berlin",
+    "tags": "Computer Science Education"
   },
   {
     "image": "laura.jpeg",
     "name": "Laura Redondo",
-    "title": "",
+    "title": "University of Muenster",
     "tags": ""
   },
   {
     "image": "maxi.jpeg",
     "name": "Maxi Neidhardt",
-    "title": "",
+    "title": "g.a.s.t",
     "tags": ""
   },
   {
     "image": "soeren.jpeg",
     "name": "Sören Metz",
-    "title": "",
+    "title": "TUM Munich",
     "tags": ""
   }
 ]

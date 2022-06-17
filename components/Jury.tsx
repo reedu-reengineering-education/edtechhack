@@ -9,14 +9,10 @@ const Jury = () => {
   const jury = require(`@/assets/collections/jury/${router.locale}.json`)
 
   return (
-    <div className="lg:flex" id="jury-mentors">
+    <div id="jury-mentors">
       <div className="mx-12 mt-12 flex-1">
-        <h2 className="my-4 text-center text-2xl font-semibold lg:ml-auto lg:w-fit">
-          {t.title}
-        </h2>
-        <p className="text-center lg:ml-auto lg:mr-0 lg:w-fit">
-          {t.description}
-        </p>
+        <h2 className="my-4 text-center text-2xl font-semibold">{t.title}</h2>
+        <p className="text-center">{t.description}</p>
       </div>
       <div className="flex flex-1 flex-wrap justify-center">
         {jury.map((j: any, i: any) => (

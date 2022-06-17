@@ -9,14 +9,12 @@ const Mentors = () => {
   const mentors = require(`@/assets/collections/mentors/${router.locale}.json`)
 
   return (
-    <div className="lg:flex">
-      <div className="visible mx-12 flex-1 lg:hidden">
-        <h2 className="my-4 text-center text-2xl font-semibold lg:w-fit">
-          {t.title}
-        </h2>
-        <p className="text-center lg:w-fit">{t.description}</p>
+    <div>
+      <div className="visible mx-12 flex-1">
+        <h2 className="my-4 text-center text-2xl font-semibold">{t.title}</h2>
+        <p className="text-center ">{t.description}</p>
       </div>
-      <div className="flex flex-1 flex-wrap justify-center">
+      <div className="mx-auto flex max-w-4xl flex-1 flex-wrap justify-center">
         {mentors.map((m: any, i: number) => (
           <div key={i} className="flex flex-col items-center p-4">
             <div className="h-40 w-40 overflow-hidden rounded-full border-4 border-royal-blue bg-white">
@@ -34,12 +32,6 @@ const Mentors = () => {
             </div>
           </div>
         ))}
-      </div>
-      <div className="mx-12 hidden flex-1 lg:block">
-        <h2 className="my-4 text-center text-2xl font-semibold lg:w-fit">
-          {t.title}
-        </h2>
-        <p className="text-center lg:w-fit">{t.description}</p>
       </div>
     </div>
   )
