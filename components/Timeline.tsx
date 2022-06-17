@@ -18,7 +18,7 @@ const Timeline = () => {
                 {t.start.title}
               </h2>
               <p className="mb-4 ml-auto w-fit">{t.start.date}</p>
-              <p className="my-4 ml-auto w-fit">{t.start.content}</p>
+              <p className="my-4 ml-auto w-fit text-right">{t.start.content}</p>
             </li>
             <li className="mr-8 pb-10">
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
@@ -26,7 +26,7 @@ const Timeline = () => {
                 {t.pocketevent.title}
               </h2>
               <p className="mb-4 ml-auto w-fit">{t.pocketevent.date}</p>
-              <p className="ml-auto w-fit py-4">
+              <p className="ml-auto w-fit py-4 text-right">
                 {t.pocketevent.content}{' '}
                 <a
                   href="https://bit.ly/EdTechPreEvent"
@@ -44,7 +44,9 @@ const Timeline = () => {
                 {t.deadline.title}
               </h2>
               <p className="mb-4 ml-auto w-fit">{t.deadline.date}</p>
-              <p className="ml-auto w-fit py-4">{t.deadline.content}</p>
+              <p className="ml-auto w-fit py-4 text-right">
+                {t.deadline.content}
+              </p>
             </li>
           </ol>
           <ol className="relative border-r-4 border-royal-blue">
