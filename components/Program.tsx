@@ -100,7 +100,7 @@ const Program = () => {
               </p>
               <br />
               <p>Program (local Brazilian CET time): </p>
-              <p>10am (Brazilian time) / 15 hours (CEST)</p>
+              <p>10am (Brazilian time) / 15pm (CEST)</p>
               <br />
               <p>10:00 AM (BRT) | Welcome &amp; Opening Remarks</p>
               <br />
