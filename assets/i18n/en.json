@@ -95,7 +95,8 @@
     "title": "Partners"
   },
   "registration": {
-    "title": "Registration"
+    "title": "Registration",
+    "challenge": "Submit a challenge"
   },
   "footer": {
     "share": "Share",
