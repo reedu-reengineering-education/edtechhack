@@ -95,7 +95,8 @@
     "title": "Parceiros"
   },
   "registration": {
-    "title": "Formulário de registro"
+    "title": "Formulário de registro",
+    "challenge": "Apresentar um desafio"
   },
   "footer": {
     "share": "Compartilhe",

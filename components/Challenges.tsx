@@ -29,7 +29,7 @@ const Challenges = () => {
       <Button
         className="mx-auto"
         onClick={() =>
-          scrollToTargetAdjusted(document.getElementById('registration'))
+          scrollToTargetAdjusted(document.getElementById('submit_challenge'))
         }
       >
         {t.submit}
