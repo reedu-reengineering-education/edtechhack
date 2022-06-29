@@ -53,7 +53,11 @@
   },
   "mentors": {
     "title": "The Mentors and Mediators",
-    "description": "General description about their role during the hackathon"
+    "description": "The Team of mentors will help you during the hackathon."
+  },
+  "organisators": {
+    "title": "The Organisators",
+    "description": ""
   },
   "timeline": {
     "title": "Timeline",

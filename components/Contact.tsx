@@ -2,8 +2,13 @@ import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import { Button } from './Elements/Button'
+import { useRouter } from 'next/router'
 
 const Contact = () => {
+  const router = useRouter()
+
+  const faq = require(`@/assets/collections/faq/${router.locale}.json`)
+
   return (
     <div id="contact">
       <div className="text-center">
@@ -16,44 +21,25 @@ const Contact = () => {
           </h2>
         </div>
         <div className="mx-12 mt-8 flex-1 md:mt-0">
-          {/* <Disclosure>
-            {({ open }) => (
-              <>
-                <Disclosure.Button className="flex w-full justify-between border-b-2 border-royal-blue py-2 text-left text-sm font-medium text-royal-blue focus:outline-none">
-                  <span>DO I NEED TO BE FROM SÃO PAULO TO PARTICIPATE?</span>
-                  <ChevronUpIcon
-                    className={`${
-                      open ? 'rotate-180 transform' : ''
-                    } h-5 w-5 text-royal-blue`}
-                  />
-                </Disclosure.Button>
-                <Disclosure.Panel className="pt-4 pb-2">
-                  If youre unhappy with your purchase for any reason, email us
-                  within 90 days and well refund you in full, no questions
-                  asked.
-                </Disclosure.Panel>
-              </>
-            )}
-          </Disclosure>
-          <Disclosure>
-            {({ open }) => (
-              <>
-                <Disclosure.Button className="flex w-full justify-between border-b-2 border-royal-blue  py-2 text-left text-sm font-medium text-royal-blue focus:outline-none">
-                  <span>DO I NEED TO BE FROM SÃO PAULO TO PARTICIPATE?</span>
-                  <ChevronUpIcon
-                    className={`${
-                      open ? 'rotate-180 transform' : ''
-                    } h-5 w-5 text-royal-blue`}
-                  />
-                </Disclosure.Button>
-                <Disclosure.Panel className="p-4">
-                  If youre unhappy with your purchase for any reason, email us
-                  within 90 days and well refund you in full, no questions
-                  asked.
-                </Disclosure.Panel>
-              </>
-            )}
-          </Disclosure> */}
+          {faq.map((m: any, i: number) => (
+            <Disclosure key={i}>
+              {({ open }) => (
+                <>
+                  <Disclosure.Button className="flex w-full justify-between border-b-2 border-royal-blue py-2 text-left text-sm font-medium text-royal-blue focus:outline-none">
+                    <span>{m.question}</span>
+                    <ChevronUpIcon
+                      className={`${
+                        open ? 'rotate-180 transform' : ''
+                      } h-5 w-5 text-royal-blue`}
+                    />
+                  </Disclosure.Button>
+                  <Disclosure.Panel className="pt-4 pb-2">
+                    {m.answer}
+                  </Disclosure.Panel>
+                </>
+              )}
+            </Disclosure>
+          ))}
           <Link href="mailto:info@edtechhack.org">
             <Button className="mx-auto mt-8">Contact us</Button>
           </Link>

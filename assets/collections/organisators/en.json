@@ -1,0 +1,38 @@
+[
+  {
+    "image": "mario.jpeg",
+    "name": "Mario Pesch",
+    "title": "University of Muenster",
+    "tags": ""
+  },
+  {
+    "image": "barto.jpeg",
+    "name": "Dr. Thomas Bartoschek",
+    "title": "University of Muenster",
+    "tags": ""
+  },
+  {
+    "image": "christian.jpeg",
+    "name": "Christian Lazar",
+    "title": "FU Berlin",
+    "tags": ""
+  },
+  {
+    "image": "laura.jpeg",
+    "name": "Laura Redondo",
+    "title": "University of Muenster",
+    "tags": ""
+  },
+  {
+    "image": "maxi.jpeg",
+    "name": "Maxi Neidhardt",
+    "title": "g.a.s.t",
+    "tags": ""
+  },
+  {
+    "image": "soeren.jpeg",
+    "name": "Sören Metz",
+    "title": "TUM Munich",
+    "tags": ""
+  }
+]

@@ -13,6 +13,7 @@ import MainImage from '@/components/MainImage'
 import Head from 'next/head'
 import Script from 'next/script'
 import Registration from '@/components/Registration'
+import Organisators from '@/components/Organisators'
 
 const Home: NextPage = () => {
   return (
@@ -41,6 +42,7 @@ const Home: NextPage = () => {
         <Bar />
         <Jury />
         <Mentors />
+        <Organisators />
         <Bar />
         <Timeline />
         <Contact />

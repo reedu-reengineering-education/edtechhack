@@ -1,62 +1,38 @@
 [
   {
-    "image": "mario.jpeg",
-    "name": "Mario Pesch",
-    "title": "",
-    "tags": ""
-  },
-  {
     "image": "kim.png",
     "name": "Artur Kim Shum",
-    "title": "",
-    "tags": ""
+    "title": "re:edu GmbH & Co KG.",
+    "tags": "Design, UX"
   },
   {
     "image": "felix.jpeg",
     "name": "Felix Erdmann",
-    "title": "",
-    "tags": ""
+    "title": "re:edu GmbH & Co KG.",
+    "tags": "Web and App development"
   },
   {
     "image": "anna.jpg",
     "name": "Anna Maria Schneider",
-    "title": "",
-    "tags": ""
-  },
-  {
-    "image": "barto.jpeg",
-    "name": "Dr. Thomas Bartoschek",
-    "title": "",
-    "tags": ""
-  },
-  {
-    "image": "christian.jpeg",
-    "name": "Christian Lazar",
-    "title": "",
+    "title": "TUM Munich",
     "tags": ""
   },
   {
     "image": "kamilla.jpeg",
     "name": "Kamilla Tenório",
-    "title": "",
-    "tags": ""
+    "title": "FU Berlin",
+    "tags": "Computer Science Education"
   },
   {
-    "image": "laura.jpeg",
-    "name": "Laura Redondo",
-    "title": "",
-    "tags": ""
+    "image": "thais.jpg",
+    "name": "Thaís Blasio Martins",
+    "title": "Municipal Education Secretary of São Paulo",
+    "tags": "Education Programms"
   },
   {
-    "image": "maxi.jpeg",
-    "name": "Maxi Neidhardt",
-    "title": "",
-    "tags": ""
-  },
-  {
-    "image": "soeren.jpeg",
-    "name": "Sören Metz",
-    "title": "",
-    "tags": ""
+    "image": "priscilla.jpg",
+    "name": "Priscilla Pessutti Nascimento",
+    "title": "Goethe-Institut São Paulo​",
+    "tags": "Coordinator of Educational Projects"
   }
 ]
