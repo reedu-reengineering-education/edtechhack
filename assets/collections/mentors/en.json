@@ -1,11 +1,5 @@
 [
   {
-    "image": "mario.jpeg",
-    "name": "Mario Pesch",
-    "title": "University of Muenster",
-    "tags": ""
-  },
-  {
     "image": "kim.png",
     "name": "Artur Kim Shum",
     "title": "re:edu GmbH & Co KG.",
@@ -24,39 +18,21 @@
     "tags": ""
   },
   {
-    "image": "barto.jpeg",
-    "name": "Dr. Thomas Bartoschek",
-    "title": "University of Muenster",
-    "tags": ""
-  },
-  {
-    "image": "christian.jpeg",
-    "name": "Christian Lazar",
-    "title": "FU Berlin",
-    "tags": ""
-  },
-  {
     "image": "kamilla.jpeg",
     "name": "Kamilla Tenório",
     "title": "FU Berlin",
     "tags": "Computer Science Education"
   },
   {
-    "image": "laura.jpeg",
-    "name": "Laura Redondo",
-    "title": "University of Muenster",
-    "tags": ""
+    "image": "thais.jpg",
+    "name": "Thaís Blasio Martins",
+    "title": "Municipal Education Secretary of São Paulo",
+    "tags": "Education Programms"
   },
   {
-    "image": "maxi.jpeg",
-    "name": "Maxi Neidhardt",
-    "title": "g.a.s.t",
-    "tags": ""
-  },
-  {
-    "image": "soeren.jpeg",
-    "name": "Sören Metz",
-    "title": "TUM Munich",
-    "tags": ""
+    "image": "priscilla.jpg",
+    "name": "Priscilla Pessutti Nascimento",
+    "title": "Goethe-Institut São Paulo​",
+    "tags": "Coordinator of Educational Projects"
   }
 ]
