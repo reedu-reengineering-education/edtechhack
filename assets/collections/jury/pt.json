@@ -1,14 +1,20 @@
 [
   {
-    "questions": "rafael_deschka.png",
-    "answer": "Rafael D. Deschka"
+    "image": "rafael_deschka.png",
+    "name": "Rafael D. Deschka",
+    "title": "Goethe-Institut São Paulo",
+    "tags": "Head of Language and Educational Programms South America,"
   },
   {
-    "questions": "rafael_deschka.png",
-    "answer": "Rafael D. Deschka"
+    "image": "martin_neugebauer.jpeg",
+    "name": "Prof. Dr. Martin Neugebauer",
+    "title": "FU Berlin",
+    "tags": "Empirical research on education and higher education"
   },
   {
-    "questions": "rafael_deschka.png",
-    "answer": "Rafael D. Deschka"
+    "image": "dummy4.jpg",
+    "name": "TBA",
+    "title": "",
+    "tags": ""
   }
 ]
