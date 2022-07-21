@@ -42,11 +42,11 @@ const Home: NextPage = () => {
         <Bar />
         <Jury />
         <Mentors />
-        <Organisators />
         <Bar />
         <Timeline />
         <Contact />
         <Bar />
+        <Organisators />
         <Supporters />
         <Partners />
         <Registration />

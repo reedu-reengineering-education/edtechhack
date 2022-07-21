@@ -163,17 +163,20 @@ const Program = () => {
           </div>
         </div>
         <div className="flex flex-1 flex-wrap justify-center">
-          <p className="text-center">
-            If you missed the pre event you can watch the recording of the
-            presentation on youtube:
-            <iframe
-              width="800"
-              height="450"
-              src="https://www.youtube-nocookie.com/embed/LKrmsPsSrfo"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            ></iframe>
-          </p>
+          <div className="mx-12 flex-1">
+            <p className="text-center">
+              If you missed the pre event you can watch the recording of the
+              presentation on youtube:
+              <iframe
+                className="aspect-video-16x9 w-full"
+                width="800"
+                height="450"
+                src="https://www.youtube-nocookie.com/embed/LKrmsPsSrfo"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </p>
+          </div>
         </div>
       </div>
     </>

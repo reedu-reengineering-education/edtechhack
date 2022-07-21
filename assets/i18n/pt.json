@@ -32,7 +32,7 @@
     },
     "participants": {
       "title": "Participantes",
-      "description": "Os 30 participantes de diversas regiões do Brasil serão selecionados pelo comitê organizador. O programa incentiva candidatas de diversas áreas do conhecimento e apoia financeiramente candidaturas de fora da área expandida de São Paulo e de todo o Brasil com bolsas de mobilidade."
+      "description": "Os participantes de diversas regiões do Brasil serão selecionados pelo comitê organizador. O programa incentiva candidatas de diversas áreas do conhecimento e apoia financeiramente candidaturas de fora da área expandida de São Paulo e de todo o Brasil com bolsas de mobilidade."
     },
     "button": {
       "join": "Participe do Hackthon",
@@ -49,7 +49,12 @@
   },
   "jury": {
     "title": "O júri",
-    "description": "Descrição geral e o número de pessoas"
+    "description": "Descrição geral e o número de pessoas",
+    "prizesdescription": "A melhor equipe será premiada com uma inscrição para um representante da equipe vencedora para participar do Congresso Brasil-Alemanha de Inovação e Sustentabilidade organizado pela Câmara de Comércio e Indústria Brasil-Alemanha São Paulo (AHK-SP), a ser realizado nos dias 29 e 30 de setembro em São Paulo. A decisão será tomada por um júri de alto nível, de acordo com os seguintes critérios:",
+    "criteria1": "Grau de inovação",
+    "criteria2": "Viabilidade",
+    "criteria3": "Benefício para o setor educacional",
+    "criteria4": "Qualidade do passo final"
   },
   "mentors": {
     "title": "Os Mentores e Mediadores",
@@ -73,7 +78,7 @@
     },
     "deadline": {
       "title": "Prazo para envio dos desafios e da inscrição para o Hackthon",
-      "date": "01 de agosto",
+      "date": "07 de agosto",
       "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
     },
     "day1": {
