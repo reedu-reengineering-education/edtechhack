@@ -11,8 +11,20 @@ const Jury = () => {
   return (
     <div id="jury-mentors">
       <div className="mx-12 mt-12 flex-1">
+        <h2 className="my-4 text-center text-2xl font-semibold">
+          Jury and Prizes
+        </h2>
+        <p className="text-center">{t.prizesdescription}</p>
+        <ul className="list-disc">
+          <li>{t.criteria1}</li>
+          <li>{t.criteria2}</li>
+          <li>{t.criteria3}</li>
+          <li>{t.criteria4}</li>
+        </ul>
+      </div>
+      <div className="mx-12 mt-12 flex-1">
         <h2 className="my-4 text-center text-2xl font-semibold">{t.title}</h2>
-        <p className="text-center">{t.description}</p>
+        {/* <p className="text-center">{t.description}</p> */}
       </div>
       <div className="flex flex-1 flex-wrap justify-center">
         {jury.map((j: any, i: any) => (

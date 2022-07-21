@@ -28,7 +28,7 @@
     },
     "participants": {
       "title": "Participants",
-      "description": "The 30 participants from various parts of Brazil will be selected by the organizing committee. We will financially support applications from outside the expanded São Paulo area and from all over Brazil with a mobility grant."
+      "description": "The participants from various regions of Brazil will be selected by the organizing committee. We will financially support applications from outside the expanded São Paulo area and from all over Brazil with a mobility grant."
     },
     "pocketevent": {
       "title": "Pre-Event | Digital Education",
@@ -49,11 +49,16 @@
   },
   "jury": {
     "title": "The Jury",
+    "prizesdescription": "The best team will be awarded with a registration for one representative of the winning team to participate in the German-Brazilian Innovation and Sustainability Congress organized by the German-Brazilian Chamber of Commerce and Industry São Paulo (AHK-SP), to be held on 29 and 30 September in São Paulo. The decision will be made by a high-ranking jury according to the following criteria:",
+    "criteria1": "Degree of innovation",
+    "criteria2": "Feasibility",
+    "criteria3": "Benefit for the educational sector",
+    "criteria4": "Quality of final pitch",
     "description": "General description and the number of people"
   },
   "mentors": {
     "title": "The Mentors and Mediators",
-    "description": "The Team of mentors will help you during the hackathon."
+    "description": "The Team of mentors will help you during the hackathon. They are experts in different fields and they will be available during the hackathon"
   },
   "organisators": {
     "title": "The Organisators",
@@ -72,14 +77,14 @@
       "content": "Get to know the state of the art of digitalization in Education with German Universities and Hackathon idea."
     },
     "deadline": {
-      "title": "Deadline for challenge submission",
-      "date": "August 01st of 2022",
+      "title": "Deadline for registration and challenge submission",
+      "date": "August 7th of 2022",
       "content": "Submit a challenge and apply to join the Edtech Hackthon"
     },
     "day1": {
       "title": "Edtech Hackthon - Day 01",
       "date": "August 22nd of 2022",
-      "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
+      "content": "<ul><li>9:00 am</li></ul>"
     },
     "day2": {
       "title": "Edtech Hackthon - Day 02",

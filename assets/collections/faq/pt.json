@@ -1,14 +1,18 @@
 [
   {
-    "question": "Do I need to be from Sao Paulo to participate in the event",
-    "answer": "No we are happy with participants from all over brasil. If you need a financial support for travelling to Sao Paulo you can apply for a grant"
+    "question": "Preciso ser de São Paulo para participar do evento",
+    "answer": "Não, estamos felizes com os participantes de todo o Brasil. Se você precisar de apoio financeiro para viajar para São Paulo, você pode solicitar uma subvenção"
   },
   {
-    "question": "Which language will be used during the event",
-    "answer": "The main language for the event is english. But of course all important informations will be both in english and portugese as well. The team of mentors and organisators is a mixed language team speaking german, english and portugese. "
+    "question": "Quanto é a subvenção de viagem e quando o dinheiro será pago de volta?",
+    "answer": "Um máximo de 1000 reais pode ser reembolsado através da subvenção. O valor exato depende das necessidades pessoais e o valor só pode ser pago após o evento"
   },
   {
-    "question": "Do I need to be from Sao Paulo to participate in the event",
-    "answer": "maybe"
+    "question": "Que idioma será usado durante o evento",
+    "answer": "O idioma principal do evento é o inglês. Mas é claro que todas as informações importantes estarão tanto em inglês quanto em português. A equipe de mentores e organizadores é uma equipe de língua mista que fala alemão, inglês e portugês."
+  },
+  {
+    "question": "Eu tenho outras perguntas. Como posso chegar aos organizadores?",
+    "answer": "Você pode nos enviar um e-mail para info@edtechhack.org"
   }
 ]
