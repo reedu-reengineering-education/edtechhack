@@ -40,7 +40,7 @@ const Jury = () => {
             <h2 className="my-4 text-center text-xl font-semibold">{j.name}</h2>
             <div className="text-center">
               <p className="mb-4">{j.title}</p>
-              <p className="w-40">{j.tags}</p>
+              <p className="w-80">{j.tags}</p>
             </div>
           </div>
         ))}
