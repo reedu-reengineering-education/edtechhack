@@ -17,6 +17,7 @@ const Navbar = () => {
     // { name: t.prizes, href: '#prizes' },
     { name: t.jury, href: '#jury-mentors' },
     { name: t.timeline, href: '#timeline' },
+    { name: t.registration, href: '#registration' },
     { name: t.contact, href: '#contact' },
     { name: t.supporters, href: '#supporters' },
   ]

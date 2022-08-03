@@ -1,17 +1,17 @@
 [
   {
-    "title": "TBA",
-    "description": "Challenges will be published soon",
+    "title": "Music for everyone",
+    "description": "Brazilian music education still seems to belong to an economic and social elite, and its presence in schools, especially public ones, is almost non-existent. Music is impregnated with affective memories, which remind us of important moments in our lives: birthdays, weddings, parties, etc. It is through music that many are able to express themselves, feel the world around them and connect with it, as well as remember important people. For some reason that I cannot explain, there is also the myth of talent, that if a person is not born playing the piano, he or she will never play. Access to music education is hindered by these two situations: a myth of talent and the lack of money. The great challenge for the expansion of music projects in Brazil has been the lack of public policies, the low rate of teacher training in the area, and the high cost of buying and maintaining musical instruments. Meanwhile, thousands of students graduate from basic education without ever having had contact with music lessons, without the necessary artistic experience for their integral development. Why does money still regulate access to quality music education in Brazil?",
+    "image": "cert.png"
+  },
+  {
+    "title": "Urban Education",
+    "description": "Many Brazilian citizens do not understand basic urban concepts and current legislation, which are fundamental for living well in urban and rural areas. And more and more people are connected on their smartphones. How to promote urban education, considering regionalities, in order to reduce what many authors call 'urban illiteracy' with the help of smartphones?",
     "image": "cert.png"
   },
   {
     "title": "TBA",
-    "description": "Challenges will be published soon",
-    "image": "cert.png"
-  },
-  {
-    "title": "TBA",
-    "description": "Challenges will be published soon",
+    "description": "More Challenges will be published soon. You want to hand in your own challenge? Go to the form below",
     "image": "cert.png"
   }
 ]
