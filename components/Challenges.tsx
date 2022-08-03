@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import { scrollToTargetAdjusted } from '@/utils'
 import { useRouter } from 'next/router'
+import { useState } from 'react'
 import { Button } from './Elements/Button'
 
 const Challenges = () => {
+  const [showMore, setShowMore] = useState(false)
   const router = useRouter()
 
   const { challenges: t } = require(`@/assets/i18n/${router.locale}.json`)
@@ -22,7 +24,13 @@ const Challenges = () => {
               className="mx-auto"
             />
             <h2 className="my-4 text-2xl font-semibold">{c.title}</h2>
-            <p>{c.description}</p>
+            <h6>
+              {showMore ? c.description : `${c.description.substring(0, 250)}`}
+            </h6>
+            <Button className="mx-auto" onClick={() => setShowMore(!showMore)}>
+              {showMore ? 'Show less' : 'Show more'}
+            </Button>
+            {/* <p className="w-32 truncate ">{c.description}</p> */}
           </div>
         ))}
       </div>
