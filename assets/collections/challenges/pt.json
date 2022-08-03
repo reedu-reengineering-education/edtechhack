@@ -1,17 +1,17 @@
 [
   {
-    "title": "Topic 1",
-    "description": "Lorem ipsum",
+    "title": "Música para todos",
+    "description": "A educação musical brasileira ainda parece pertencer a uma elite econômica e social, e sua presença nas escolas, especialmente nas públicas, é quase inexistente. A música está impregnada de memórias afetivas, que nos lembram de momentos importantes em nossas vidas: aniversários, casamentos, festas, etc. É através da música que muitos são capazes de se expressar, sentir o mundo ao seu redor e se conectar com ele, assim como lembrar pessoas importantes. Por alguma razão que não posso explicar, existe também o mito do talento, que se uma pessoa não nasce tocando piano, ela nunca tocará. O acesso à educação musical é dificultado por estas duas situações: um mito de talento e a falta de dinheiro. O grande desafio para a expansão dos projetos musicais no Brasil tem sido a falta de políticas públicas, o baixo índice de formação de professores na área e o alto custo de compra e manutenção de instrumentos musicais. Enquanto isso, milhares de estudantes se formam no ensino básico sem nunca terem tido contato com aulas de música, sem a experiência artística necessária para seu desenvolvimento integral. Por que o dinheiro ainda regulamenta o acesso à educação musical de qualidade no Brasil?",
     "image": "cert.png"
   },
   {
-    "title": "Topic 2",
-    "description": "Lorem ipsum",
+    "title": "Educação Urbanística",
+    "description": "Muitos são os cidadãos brasileiros que não compreendem conceitos urbanos básicos e a legislação vigente, que são fundamentais para o bem viver em áreas urbanas e rurais. E cada vez mais as pessoas estão conectadas em seus smartphones. Como promover educação urbanística, considerando as regionalidades, com a finalidade de reduzir o que muitos autores chamam de “analfabetismo urbano” com ajuda dos smartphones?",
     "image": "cert.png"
   },
   {
     "title": "Topic 3",
-    "description": "Lorem ipsum",
+    "description": "Mais desafios serão publicados em breve. Você quer entregar seu próprio desafio? Vá para o formulário abaixo",
     "image": "cert.png"
   }
 ]
