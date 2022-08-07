@@ -43,7 +43,12 @@ const Timeline = () => {
               <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
                 {t.deadline.title}
               </h2>
-              <p className="mb-4 ml-auto w-fit">{t.deadline.date}</p>
+              <p className="mb-4 ml-auto w-fit line-through">
+                {t.deadline.date}
+              </p>
+              <p className="mb-4 ml-auto w-fit text-rose-800">
+                {t.deadline.dateExtended}
+              </p>
               <p className="ml-auto w-fit py-4 text-right">
                 {t.deadline.content}
               </p>
