@@ -2,16 +2,21 @@
   {
     "title": "Music for everyone",
     "description": "Brazilian music education still seems to belong to an economic and social elite, and its presence in schools, especially public ones, is almost non-existent. Music is impregnated with affective memories, which remind us of important moments in our lives: birthdays, weddings, parties, etc. It is through music that many are able to express themselves, feel the world around them and connect with it, as well as remember important people. For some reason that I cannot explain, there is also the myth of talent, that if a person is not born playing the piano, he or she will never play. Access to music education is hindered by these two situations: a myth of talent and the lack of money. The great challenge for the expansion of music projects in Brazil has been the lack of public policies, the low rate of teacher training in the area, and the high cost of buying and maintaining musical instruments. Meanwhile, thousands of students graduate from basic education without ever having had contact with music lessons, without the necessary artistic experience for their integral development. Why does money still regulate access to quality music education in Brazil?",
-    "image": "cert.png"
+    "image": "music.png"
   },
   {
     "title": "Urban Education",
     "description": "Many Brazilian citizens do not understand basic urban concepts and current legislation, which are fundamental for living well in urban and rural areas. And more and more people are connected on their smartphones. How to promote urban education, considering regionalities, in order to reduce what many authors call 'urban illiteracy' with the help of smartphones?",
-    "image": "cert.png"
+    "image": "urban.png"
   },
   {
-    "title": "TBA",
-    "description": "More Challenges will be published soon. You want to hand in your own challenge? Go to the form below",
-    "image": "cert.png"
+    "title": "Time management for teachers",
+    "description": "How can our teachers, who work more than 40, 50 h/week, be able to empower themselves to innovate and make a difference in the lives of our students? It is a great challenge to find time for everything, amid the pressures of the everyday life. How technology can help in that way?",
+    "image": "time.png"
+  },
+  {
+    "title": "More Challenges",
+    "description": "Thank you for submitting more challenges, the challenges will be presented on the first day at the hackathon",
+    "image": "more.png"
   }
 ]
