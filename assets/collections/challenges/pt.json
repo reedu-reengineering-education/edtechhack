@@ -2,16 +2,21 @@
   {
     "title": "Música para todos",
     "description": "A educação musical brasileira ainda parece pertencer a uma elite econômica e social, e sua presença nas escolas, especialmente nas públicas, é quase inexistente. A música está impregnada de memórias afetivas, que nos lembram de momentos importantes em nossas vidas: aniversários, casamentos, festas, etc. É através da música que muitos são capazes de se expressar, sentir o mundo ao seu redor e se conectar com ele, assim como lembrar pessoas importantes. Por alguma razão que não posso explicar, existe também o mito do talento, que se uma pessoa não nasce tocando piano, ela nunca tocará. O acesso à educação musical é dificultado por estas duas situações: um mito de talento e a falta de dinheiro. O grande desafio para a expansão dos projetos musicais no Brasil tem sido a falta de políticas públicas, o baixo índice de formação de professores na área e o alto custo de compra e manutenção de instrumentos musicais. Enquanto isso, milhares de estudantes se formam no ensino básico sem nunca terem tido contato com aulas de música, sem a experiência artística necessária para seu desenvolvimento integral. Por que o dinheiro ainda regulamenta o acesso à educação musical de qualidade no Brasil?",
-    "image": "cert.png"
+    "image": "music.png"
   },
   {
     "title": "Educação Urbanística",
     "description": "Muitos são os cidadãos brasileiros que não compreendem conceitos urbanos básicos e a legislação vigente, que são fundamentais para o bem viver em áreas urbanas e rurais. E cada vez mais as pessoas estão conectadas em seus smartphones. Como promover educação urbanística, considerando as regionalidades, com a finalidade de reduzir o que muitos autores chamam de “analfabetismo urbano” com ajuda dos smartphones?",
-    "image": "cert.png"
+    "image": "urban.png"
   },
   {
-    "title": "Topic 3",
-    "description": "Mais desafios serão publicados em breve. Você quer entregar seu próprio desafio? Vá para o formulário abaixo",
-    "image": "cert.png"
+    "title": "Gestão do tempo: preparação da aula, ensino e qualificação profissional",
+    "description": "Como nossos professores, que trabalham mais de 40, 50 h/semana, podem se capacitar para inovar e fazer a diferença na vida de nossos alunos? É um grande desafio encontrar tempo para tudo, em meio às pressões da vida cotidiana. Como a tecnologia pode ajudar nesse sentido?",
+    "image": "time.png"
+  },
+  {
+    "title": "Mais Desafios",
+    "description": "Obrigado por apresentar mais desafios, os desafios serão apresentados no primeiro dia na hackathon",
+    "image": "more.png"
   }
 ]
