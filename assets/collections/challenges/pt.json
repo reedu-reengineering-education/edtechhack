@@ -15,6 +15,11 @@
     "image": "time.png"
   },
   {
+    "title": "SDGs em Educação",
+    "description": "Em 2015, a Organização das Nações Unidas (ONU) propôs para todos os países do mundo, através da Agenda 2030, 17 objetivos para o desenvolvimento sustentável que devem ser alcançados nos próximos anos. O foco dessa agenda é sensibilizar pessoas, empresas, governos e nações para a necessidade de mudanças em diversas áreas, que estão interligadas. Acreditando que a educação seja a chave para o desenvolvimento sustentável, como trazer essas metas para a escola, mais especificamente para a aula de língua estrangeira?",
+    "image": "sustainable.png"
+  },
+  {
     "title": "Mais Desafios",
     "description": "Obrigado por apresentar mais desafios, os desafios serão apresentados no primeiro dia na hackathon",
     "image": "more.png"
