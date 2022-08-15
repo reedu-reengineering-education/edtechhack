@@ -107,7 +107,8 @@
   },
   "registration": {
     "title": "Registration",
-    "challenge": "Submit a challenge"
+    "challenge": "Submit a challenge",
+    "challengeOver": "Thank you for your submissions. The registration is closed now."
   },
   "footer": {
     "share": "Share",

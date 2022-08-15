@@ -10,14 +10,16 @@ const Registration = () => {
   return (
     <>
       <div className="text-center" id="submit_challenge">
-        <h1 className="mt-12 mb-8 text-3xl">{t.challenge}</h1>
+        {/* <h1 className="mt-12 mb-8 text-3xl">{t.challenge}</h1> */}
       </div>
-      <JotformEmbed src="https://form.jotform.com/221726764180356"></JotformEmbed>
+
+      {/* <JotformEmbed src="https://form.jotform.com/221726764180356"></JotformEmbed> */}
       <Spacer />
       <div className="text-center" id="registration">
         <h1 className="mt-12 mb-8 text-3xl">{t.title}</h1>
+        <h1 className="mt-12 mb-8 text-xl">{t.challengeOver}</h1>
       </div>
-      <JotformEmbed src="https://form.jotform.com/221491677243055"></JotformEmbed>
+      {/* <JotformEmbed src="https://form.jotform.com/221491677243055"></JotformEmbed> */}
     </>
   )
 }
