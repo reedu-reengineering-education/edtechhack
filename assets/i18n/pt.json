@@ -107,7 +107,8 @@
   },
   "registration": {
     "title": "Formulário de registro",
-    "challenge": "Apresentar um desafio"
+    "challenge": "Apresentar um desafio",
+    "challengeOver": "Obrigado por seus envios. A inscrição está encerrada agora."
   },
   "footer": {
     "share": "Compartilhe",
