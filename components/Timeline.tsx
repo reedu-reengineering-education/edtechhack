@@ -71,7 +71,10 @@ const Timeline = () => {
                   technologies from partners
                   <li>13:00</li> <p>Lunch</p>
                   <li>14:00</li>
-                  <p>Welcome words DWIH & introduction & challenges </p>
+                  <p>
+                    Welcome words DWIH and Goethe Institute / introduction &
+                    challenges{' '}
+                  </p>
                   <li>14:30</li> <p>Thinking and tinkering</p>
                   <li>15:00</li> <p>Pitches </p>
                   <li>15:30</li> <p>Group forming</p>
@@ -116,7 +119,19 @@ const Timeline = () => {
                   <li>09:00</li>
                   <p> Start Day 3 - Hacking, preparing presentations</p>
                   <li>12:00</li> <p>Lunch</p>
-                  <li>13:00</li> <p>Final presentations to the jury</p>
+                  <li>13:00</li>{' '}
+                  <p>
+                    Final presentations to the jury. You can join the final
+                    presentations via{' '}
+                    <a
+                      className="text-blue-600 no-underline hover:underline"
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.youtube.com/watch?app=desktop&v=UYpj-0ZbRpM"
+                    >
+                      youtube
+                    </a>
+                  </p>
                   <li>15:00</li> <p>Announcement of winners & farewell</p>
                   <li>16:00</li> <p>End of the Hackathon </p>
                 </ul>
