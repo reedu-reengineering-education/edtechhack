@@ -1,5 +1,8 @@
+import { ArrowRightIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import { Button } from './Elements/Button'
+import Link from 'next/link'
 
 const MainImage = () => {
   const router = useRouter()
@@ -24,6 +27,15 @@ const MainImage = () => {
             <br />
             {t.place}
           </p>
+          <Link href="/projects">
+            <Button
+              variant="inverse"
+              endIcon={<ArrowRightIcon className="h-6 w-6" />}
+              className="mx-auto mt-6"
+            >
+              Explore the projects
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

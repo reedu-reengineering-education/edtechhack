@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Techla",
+    "members": "Priscilla, Johanna, Igor, Igor, Vitor, Alice",
+    "prize": "first",
+    "description": "tech_la is an educational solution for meaningful music learning, specially for children. It is a web platform offering musical activities for begginers, with the option to use a physical low-cost keyboard to enahnce the learning experience.",
+    "link": "https://bit.ly/tech_la",
+    "image": "tech_la.png"
+  },
+  {
+    "name": "CICLOS",
+    "members": "Joabson, Rainer, Eduardo, Natalie, Camilla, Raissa",
+    "prize": "second",
+    "description": "Digital Platform for environmental education, destined for kids and teachers"
+  },
+  {
+    "name": "Design Toolbox for Teachers",
+    "members": "Silvia, Pedro, Maira, Carlo, Gabriel",
+    "description": ""
+  },
+  {
+    "name": "ConnecTech",
+    "members": "Sofia, Patricia, Vitor",
+    "description": "We are a platform that offers scholarships to vulnerable students for code courses and connects those students with job opportunities",
+    "image": "connectech.jpeg",
+    "link": "https://www.figma.com/proto/Kjt1Mr8tiRbmcCfegywPIl/ConnecTech-Apresenta%C3%A7%C3%A3o?node-id=17%3A2&scaling=min-zoom&starting-point-node-id=17%3A33&show-proto-sidebar=1"
+  },
+  {
+    "name": "P2P Critical Thinking",
+    "members": "Helder, Pablo, William",
+    "description": ""
+  },
+  {
+    "name": "MoodlePod",
+    "members": "José Renato Castro Milanez (UNIFEI), Mariana de Sá Gândara (CESAR School), Jussara Edna Meira da Silva (IFMT)",
+    "description": "It´s a text-to-speech/speech-to-text device to improve blind students' experience on the Moodle platform.",
+    "image": "moodlepod.png"
+  }
+]
