@@ -54,14 +54,14 @@ const Partners = () => {
             className="mx-auto"
           />
         </div>
-        <div className="mx-12 flex-1 p-8 md:p-4 lg:p-8 xl:p-16 ">
+        {/* <div className="mx-12 flex-1 p-8 md:p-4 lg:p-8 xl:p-16 ">
           <Image
             src={require('@/assets/images/partners/gast.svg')}
             alt="cert"
             layout="responsive"
             className="mx-auto"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   )

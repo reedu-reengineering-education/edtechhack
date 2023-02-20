@@ -27,13 +27,13 @@ const MainImage = () => {
             <br />
             {t.place}
           </p>
-          <Link href="/projects">
+          <Link href="/2022">
             <Button
               variant="inverse"
               endIcon={<ArrowRightIcon className="h-6 w-6" />}
               className="mx-auto mt-6"
             >
-              Explore the projects
+              {t.hack_2022}
             </Button>
           </Link>
         </div>

@@ -20,7 +20,7 @@ const Timeline = () => {
               <p className="mb-4 ml-auto w-fit">{t.start.date}</p>
               <p className="my-4 ml-auto w-fit text-right">{t.start.content}</p>
             </li>
-            <li className="mr-8 pb-10">
+            {/* <li className="mr-8 pb-10">
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
               <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
                 {t.pocketevent.title}
@@ -37,18 +37,16 @@ const Timeline = () => {
                   More Information and Signup
                 </a>
               </p>
-            </li>
+            </li> */}
             <li className="mr-8 pb-10">
               <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
               <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
                 {t.deadline.title}
               </h2>
-              <p className="mb-4 ml-auto w-fit line-through">
-                {t.deadline.date}
-              </p>
-              <p className="mb-4 ml-auto w-fit text-rose-800">
+              <p className="mb-4 ml-auto w-fit">{t.deadline.date}</p>
+              {/* <p className="mb-4 ml-auto w-fit text-rose-800">
                 {t.deadline.dateExtended}
-              </p>
+              </p> */}
               <p className="ml-auto w-fit py-4 text-right">
                 {t.deadline.content}
               </p>
@@ -119,7 +117,7 @@ const Timeline = () => {
                   <li>09:00</li>
                   <p> Start Day 3 - Hacking, preparing presentations</p>
                   <li>12:00</li> <p>Lunch</p>
-                  <li>13:00</li>{' '}
+                  <li>16:00</li>{' '}
                   <p>
                     Final presentations to the jury. You can join the final
                     presentations via{' '}
@@ -132,8 +130,8 @@ const Timeline = () => {
                       youtube
                     </a>
                   </p>
-                  <li>15:00</li> <p>Announcement of winners & farewell</p>
-                  <li>16:00</li> <p>End of the Hackathon </p>
+                  <li>17:30</li> <p>Announcement of winners & farewell</p>
+                  <li>18:00</li> <p>End of the Hackathon </p>
                 </ul>
               </div>
             </li>

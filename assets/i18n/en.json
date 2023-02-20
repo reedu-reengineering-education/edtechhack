@@ -10,8 +10,9 @@
     "contact": "Contact"
   },
   "mainImage": {
-    "date": "August 22-24, 2022",
-    "place": "São Paulo"
+    "date": "May 25-27, 2023",
+    "place": "Goethe Institute São Paulo",
+    "hack_2022": "See what happend in 2022"
   },
   "program": {
     "q1": "Do you want to be part of tech-solutions for and national challenges in the educational area?",
@@ -21,7 +22,7 @@
     "participate": "Who can participate?",
     "program": {
       "title": "The program",
-      "description": "The Edtech Hackathon is an event to develop tech solutions to local and global challenges in education. The online phase is the moment where everyone can submit an idea of challenge here. The presencial phase, which will take place on the 22-24th of August at the Goethe Institut in São Paulo. It will be two exclusive days for participants to develop solutions supported by mentors and workshops and pizza."
+      "description": "The Edtech Hackathon is an event to develop tech solutions to local and global challenges in education. The online phase is the moment where everyone can submit an idea of challenge here. After the first EdTech Hackthon in 2022 this years hackathon, will take place on the 25-27th of May at the Goethe Institut in São Paulo. It will be two three days for participants to develop solutions supported by mentors and workshops, pizza and german food and beer."
     },
     "challenges": {
       "title": "The Challenges",
@@ -43,6 +44,7 @@
   },
   "challenges": {
     "title": "The challenges",
+    "description": "You have a challenges related to EdTech? Submit it here and we will select the best ones for the hackathon. The challenges will be presented to the participants and they will work on them during the hackathon.",
     "submit": "Submit a challenge"
   },
   "prizes": {
@@ -69,33 +71,28 @@
     "title": "Timeline",
     "start": {
       "title": "Start",
-      "date": "May 31st of 2022",
-      "content": "Submit a challenge and apply to join the Edtech Hackthon"
-    },
-    "pocketevent": {
-      "title": "Webinar",
-      "date": "June 22nd of 2022 - 10AM (BRT) | 3PM (CEST) ",
-      "content": "Get to know the state of the art of digitalization in Education with German Universities and Hackathon idea."
+      "date": " 1st of march 2023",
+      "content": "Registration for the EdTech Hackathon open"
     },
     "deadline": {
       "title": "Deadline for registration and challenge submission",
-      "date": "August 7th of 2022",
+      "date": " 7th of april 2023",
       "dateExtended": "Deadline extended to August 15th of 2022!",
       "content": "Submit a challenge and apply to join the Edtech Hackthon"
     },
     "day1": {
       "title": "Edtech Hackthon - Day 01",
-      "date": "August 22nd of 2022",
+      "date": "May 25th of 2023",
       "content": "<ul><li>9:00 am</li></ul>"
     },
     "day2": {
       "title": "Edtech Hackthon - Day 02",
-      "date": "August 23rd of 2022",
+      "date": "May 26th of 2023",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     },
     "day3": {
       "title": "Edtech Hackthon - Day 03",
-      "date": "August 24th of 2022",
+      "date": "May 27th of 2023",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     }
   },
@@ -108,6 +105,10 @@
   "registration": {
     "title": "Registration",
     "challenge": "Submit a challenge",
+    "challengeOver": "Thank you for your submissions. The registration is closed now."
+  },
+  "challengeSubmission": {
+    "title": "Submit a challenge",
     "challengeOver": "Thank you for your submissions. The registration is closed now."
   },
   "footer": {
