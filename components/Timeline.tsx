@@ -70,7 +70,7 @@ const Timeline = () => {
                   <li>13:00</li> <p>Lunch</p>
                   <li>14:00</li>
                   <p>
-                    Welcome words DWIH and Goethe Institute / introduction &
+                    Welcome words DWIH and Goethe Institut / introduction &
                     challenges{' '}
                   </p>
                   <li>14:30</li> <p>Thinking and tinkering</p>
