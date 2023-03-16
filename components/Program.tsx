@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import { Button } from './Elements/Button'
 import Image from 'next/image'
 import Bar from '@/components/Elements/Bar'
+import Link from 'next/link'
 
 const Program = () => {
   const router = useRouter()
@@ -29,14 +30,11 @@ const Program = () => {
             <h2 className="my-4 text-center text-2xl font-semibold md:ml-auto md:w-fit">
               {t.whatIs}
             </h2>
-            <Button
-              className="mx-auto md:ml-auto md:mr-0"
-              onClick={() =>
-                scrollToTargetAdjusted(document.getElementById('registration'))
-              }
-            >
-              {t.button.join}
-            </Button>
+            <Link href="/registration">
+              <Button className="mx-auto md:ml-auto md:mr-0">
+                {t.button.join}
+              </Button>
+            </Link>
           </div>
           <div className="mx-12 flex-1">
             <h2 className="my-4 text-2xl font-semibold">{t.program.title}</h2>
@@ -48,14 +46,11 @@ const Program = () => {
             <h2 className="my-4 text-center text-2xl font-semibold md:ml-auto md:w-fit">
               {t.whatKind}
             </h2>
-            <Button
-              className="mx-auto md:ml-auto md:mr-0"
-              onClick={() =>
-                scrollToTargetAdjusted(document.getElementById('registration'))
-              }
-            >
-              {t.button.submit}
-            </Button>
+            <Link href="/challenge">
+              <Button className="mx-auto md:ml-auto md:mr-0">
+                {t.button.submit}
+              </Button>
+            </Link>
           </div>
           <div className="mx-12 flex-1">
             <h2 className="my-4 text-2xl font-semibold">
@@ -85,8 +80,8 @@ const Program = () => {
             <p>{t.participants.description}</p>
           </div>
         </div>
-        <Bar />
-        <div className="my-32 md:flex">
+        {/* <Bar /> */}
+        {/* <div className="my-32 md:flex">
           <div className="mx-12 flex-1">
             <h2 className="my-4 text-2xl font-semibold">
               {t.pocketevent.title}
@@ -161,8 +156,8 @@ const Program = () => {
               placeholder="blur"
             />
           </div>
-        </div>
-        <div className="flex flex-1 flex-wrap justify-center">
+        </div> */}
+        {/* <div className="flex flex-1 flex-wrap justify-center">
           <div className="mx-12 flex-1">
             <p className="text-center">
               If you missed the pre event you can watch the recording of the
@@ -177,7 +172,7 @@ const Program = () => {
               ></iframe>
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )

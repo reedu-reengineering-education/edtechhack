@@ -1,8 +1,8 @@
 import Project from '@/components/Project'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-
 import ProjectCollection from '@/assets/collections/projects/projects.json'
+import ImageGallery from '@/components/ImageGallery'
 
 const Projects: NextPage = () => {
   return (
@@ -17,7 +17,23 @@ const Projects: NextPage = () => {
 
       <main className="container mx-auto px-4">
         <div className="my-40">
-          <p className="text-center text-4xl font-bold lg:text-6xl">Projects</p>
+          <p className="text-center text-4xl font-bold lg:text-6xl">
+            Impressions
+          </p>
+          <ImageGallery />
+          <iframe
+            className="aspect-video-16x9 mx-auto my-8"
+            width="800"
+            height="450"
+            src="https://www.youtube-nocookie.com/embed/Fjb_gJ1ZsP4"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe>
+        </div>
+        <div className="my-40">
+          <p className="text-center text-4xl font-bold lg:text-6xl">
+            Projects 2022
+          </p>
         </div>
         <div className="my-4">
           {ProjectCollection.map((p, i) => (

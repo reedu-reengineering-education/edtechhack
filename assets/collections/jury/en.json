@@ -1,11 +1,5 @@
 [
   {
-    "image": "reiss_kristina.png",
-    "name": "Prof. Dr. Kristina Reiss",
-    "title": "Technical University of Munich (TUM)",
-    "tags": "Professor Emerita of Didactics of Mathematics and Emerita of Excellence of the Technical University of Munich (TUM)"
-  },
-  {
     "image": "thais.jpg",
     "name": "Thaís Blasio Martins",
     "title": "Municipal Education Secretary of São Paulo",
@@ -13,14 +7,8 @@
   },
   {
     "image": "rafael_deschka.png",
-    "name": "Rafael D. Deschka",
+    "name": "",
     "title": "Goethe-Institut São Paulo",
-    "tags": "Head of Language and Educational Programms South America,"
-  },
-  {
-    "image": "joern_weingaertner.jpg",
-    "name": "Dr. Jörn Weingärtner",
-    "title": "Director at g.a.s.t",
     "tags": ""
   },
   {

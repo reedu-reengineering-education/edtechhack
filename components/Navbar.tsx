@@ -17,7 +17,7 @@ const Navbar = () => {
     // { name: t.prizes, href: '#prizes' },
     { name: t.jury, href: '#jury-mentors' },
     { name: t.timeline, href: '#timeline' },
-    { name: t.registration, href: '#registration' },
+    { name: t.registration, href: '/registration' },
     { name: t.contact, href: '#contact' },
     { name: t.supporters, href: '#supporters' },
   ]
@@ -83,28 +83,72 @@ const Navbar = () => {
                       </Link>
                     </div>
                     <div className="flex space-x-4">
-                      {navigation.map(item => (
-                        // <Link key={item.name} href={item.href}>
-                        <a
-                          onClick={() => {
-                            scrollToTargetAdjusted(
-                              document.getElementById(item.href.split('#')[1]),
-                            )
-                          }}
-                          key={item.name}
-                          className={clsx(
-                            'cursor-pointer  px-3 py-2 text-sm font-medium text-white hover:underline lg:text-base',
-                          )}
-                          aria-current={
-                            router.pathname.includes(item.href)
-                              ? 'page'
-                              : undefined
-                          }
-                        >
-                          {item.name}
-                        </a>
-                        // </Link>
-                      ))}
+                      {navigation.map(item => {
+                        if (item.href.startsWith('/')) {
+                          return (
+                            <Link
+                              href={item.href}
+                              key={item.name}
+                              aria-current={
+                                router.pathname.includes(item.href)
+                                  ? 'page'
+                                  : undefined
+                              }
+                            >
+                              <a
+                                className={clsx(
+                                  'cursor-pointer  px-3 py-2 text-sm font-medium text-white hover:underline lg:text-base',
+                                )}
+                              >
+                                {item.name}
+                              </a>
+                            </Link>
+                          )
+                        }
+
+                        // we are not on the main page
+                        if (router.pathname.length > 2) {
+                          return (
+                            <a
+                              href={`/${router.locale}/${item.href}`}
+                              key={item.name}
+                              className={clsx(
+                                'cursor-pointer  px-3 py-2 text-sm font-medium text-white hover:underline lg:text-base',
+                              )}
+                              aria-current={
+                                router.pathname.includes(item.href)
+                                  ? 'page'
+                                  : undefined
+                              }
+                            >
+                              {item.name}
+                            </a>
+                          )
+                        }
+
+                        return (
+                          <a
+                            onClick={() => {
+                              scrollToTargetAdjusted(
+                                document.getElementById(
+                                  item.href.split('#')[1],
+                                ),
+                              )
+                            }}
+                            key={item.name}
+                            className={clsx(
+                              'cursor-pointer  px-3 py-2 text-sm font-medium text-white hover:underline lg:text-base',
+                            )}
+                            aria-current={
+                              router.pathname.includes(item.href)
+                                ? 'page'
+                                : undefined
+                            }
+                          >
+                            {item.name}
+                          </a>
+                        )
+                      })}
                     </div>
                   </div>
                 </div>

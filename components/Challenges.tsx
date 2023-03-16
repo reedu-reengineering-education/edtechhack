@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 import { useState } from 'react'
 import Challenge from './Challenge'
 import { Button } from './Elements/Button'
+import Link from 'next/link'
 
 const Challenges = () => {
   const router = useRouter()
@@ -14,20 +15,17 @@ const Challenges = () => {
 
   return (
     <div className="text-center" id="challenges">
-      <h1 className="mt-16 text-3xl">{t.title}</h1>
-      <div className="my-16 md:flex">
+      <h2 className="my-4 text-center text-2xl font-semibold">{t.title}</h2>
+
+      <p>{t.description}</p>
+      {/* <div className="my-16 md:flex">
         {challenges.map((c: any, i: number) => (
           <Challenge key={i} c={c} />
         ))}
-      </div>
-      <Button
-        className="mx-auto"
-        onClick={() =>
-          scrollToTargetAdjusted(document.getElementById('submit_challenge'))
-        }
-      >
-        {t.submit}
-      </Button>
+      </div> */}
+      <Link href="/challenge">
+        <Button className="mx-auto">{t.submit}</Button>
+      </Link>
     </div>
   )
 }

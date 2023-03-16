@@ -25,8 +25,8 @@ const Home: NextPage = () => {
           content="The Edtech Hackathon is an event to develop tech solutions to local
           and global challenges in education. The online phase is the moment
           where everyone can submit an idea of challenge here. The presencial
-          phase, which will take place on the 22-24th of August at the Goethe
-          Institute in São Paulo. It will be two exclusive days for participants
+          phase, which will take place on the 25-27th of May at the Goethe
+          Institut in São Paulo. It will be two exclusive days for participants
           to develop solutions supported by mentors and workshops and pizza."
         />
         <link rel="icon" href="/favicon.png" type="image/png" />
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
         <Organisators />
         <Supporters />
         <Partners />
-        <Registration />
+        {/* <Registration /> */}
       </main>
     </div>
   )
