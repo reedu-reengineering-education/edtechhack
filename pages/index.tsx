@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           and global challenges in education. The online phase is the moment
           where everyone can submit an idea of challenge here. The presencial
           phase, which will take place on the 25-27th of May at the Goethe
-          Institute in São Paulo. It will be two exclusive days for participants
+          Institut in São Paulo. It will be two exclusive days for participants
           to develop solutions supported by mentors and workshops and pizza."
         />
         <link rel="icon" href="/favicon.png" type="image/png" />
