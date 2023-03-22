@@ -10,7 +10,7 @@
     "contact": "Contato"
   },
   "mainImage": {
-    "date": "22-24 de agosto",
+    "date": "25-27 de maio 2023",
     "place": "em São Paulo"
   },
   "program": {
@@ -69,33 +69,28 @@
     "title": "Cronograma",
     "start": {
       "title": "Início",
-      "date": "31 de maio",
+      "date": "1 de março",
       "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
-    },
-    "pocketevent": {
-      "title": "Webinar",
-      "date": "22 de junho de 2022 - 10h (BRT) | 15h (CEST) ",
-      "content": "Get to know the state of the art of digitalization in Education with German Universities and Hackathon idea."
     },
     "deadline": {
       "title": "Prazo para envio dos desafios e da inscrição para o Hackthon",
-      "date": "07 de agosto",
-      "dateExtended": "Prazo prorrogado até 15 de agosto de 2022!",
+      "date": "7 de abril 2023",
+      "dateExtended": "Prazo prorrogado até 28 de abril de 2023!",
       "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
     },
     "day1": {
       "title": "Edtech Hackthon - Dia 01",
-      "date": "22 de agosto",
+      "date": "25 de maio 2023",
       "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Palestras, encontro e grupos de trabalho - Oficina sobre tecnologias e educação + Almoço + Boas-vindas DWIH + Introdução & desafios + Pitches + Finalização do dia com pizza"
     },
     "day2": {
       "title": "Edtech Hackthon - Dia 02",
-      "date": "23 de agosto",
+      "date": "26 de maio 2023",
       "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Investidores e Ecossistema de inovação brasileiro - Apresentação e troca com os investidores + Almoço + Apresentação do ecossistema de Startups + Finalização do dia com churrasco"
     },
     "day3": {
       "title": "Edtech Hackthon - Dia 03",
-      "date": "24 de agosto",
+      "date": "27 de maio 2023",
       "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Apresentação final e premiação - Almoço + Apresentação final ao Júri + Keynotes + Premiação dos vencedores e celebração"
     }
   },
