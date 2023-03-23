@@ -6,7 +6,7 @@
     "tags": "Education Programms"
   },
   {
-    "image": "rafael_deschka.png",
+    "image": "dummy1.png",
     "name": "",
     "title": "Goethe-Institut São Paulo",
     "tags": ""
@@ -21,6 +21,12 @@
     "image": "marina.jpg",
     "name": "Marina Nordi",
     "title": "Founder and Director Escola Mais",
+    "tags": ""
+  },
+  {
+    "image": "dummy4.png",
+    "name": "",
+    "title": "More coming soon...",
     "tags": ""
   }
 ]

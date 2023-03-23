@@ -6,12 +6,6 @@
     "tags": "Education Programms"
   },
   {
-    "image": "rafael_deschka.png",
-    "name": "Rafael D. Deschka",
-    "title": "Goethe-Institut São Paulo",
-    "tags": "Head of Language and Educational Programms South America"
-  },
-  {
     "image": "jochen_hellmann.jpeg",
     "name": "Dr. Jochen Hellmann",
     "title": "DWIH São Paulo",
@@ -21,6 +15,18 @@
     "image": "marina.jpg",
     "name": "Marina Nordi",
     "title": "Founder and Director Escola Mais",
+    "tags": ""
+  },
+  {
+    "image": "dummy1.png",
+    "name": "",
+    "title": "Goethe-Institut São Paulo",
+    "tags": ""
+  },
+  {
+    "image": "dummy4.png",
+    "name": "",
+    "title": "Mais em breve...",
     "tags": ""
   }
 ]
