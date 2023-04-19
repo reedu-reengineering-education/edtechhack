@@ -2,7 +2,7 @@
     {
         "title": "senseBox",
         "person": "Felix and Mario",
-        "description": "Brazilian music education still seems to belong to an economic and social elite, and its presence in schools, especially public ones, is almost non-existent. Music is impregnated with affective memories, which remind us of important moments in our lives: birthdays, weddings, parties, etc. It is through music that many are able to express themselves, feel the world around them and connect with it, as well as remember important people. For some reason that I cannot explain, there is also the myth of talent, that if a person is not born playing the piano, he or she will never play. Access to music education is hindered by these two situations: a myth of talent and the lack of money. The great challenge for the expansion of music projects in Brazil has been the lack of public policies, the low rate of teacher training in the area, and the high cost of buying and maintaining musical instruments. Meanwhile, thousands of students graduate from basic education without ever having had contact with music lessons, without the necessary artistic experience for their integral development. Why does money still regulate access to quality music education in Brazil?",
+        "description": "The senseBox is a modular, open-source, and easy-to-use sensor box for environmental monitoring. It is designed for use in schools and citizen science projects. The senseBox is a great tool for learning about environmental monitoring and data analysis. In this workshop, we will show you how to build your own senseBox and how to use it to collect data.",
         "image": "sensebox.png"
     },
     {
