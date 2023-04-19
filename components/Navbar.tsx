@@ -159,22 +159,27 @@ const Navbar = () => {
           <Disclosure.Panel className="lg:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
               {navigation.map(item => (
-                <Disclosure.Button
+                <Link
+                  href={`/${router.locale}/${item.href}`}
+                  passHref
                   key={item.name}
-                  onClick={() => {
-                    scrollToTargetAdjusted(
-                      document.getElementById(item.href.split('#')[1]),
-                    )
-                  }}
-                  className={clsx(
-                    'block px-3  py-2 text-sm font-medium text-white hover:underline',
-                  )}
-                  aria-current={
-                    router.pathname.includes(item.href) ? 'page' : undefined
-                  }
                 >
-                  {item.name}
-                </Disclosure.Button>
+                  <Disclosure.Button
+                    onClick={() => {
+                      scrollToTargetAdjusted(
+                        document.getElementById(item.href.split('#')[1]),
+                      )
+                    }}
+                    className={clsx(
+                      'block px-3  py-2 text-sm font-medium text-white hover:underline',
+                    )}
+                    aria-current={
+                      router.pathname.includes(item.href) ? 'page' : undefined
+                    }
+                  >
+                    {item.name}
+                  </Disclosure.Button>
+                </Link>
               ))}
             </div>
           </Disclosure.Panel>
