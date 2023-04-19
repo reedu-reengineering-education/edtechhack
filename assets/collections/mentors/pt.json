@@ -1,6 +1,18 @@
 [
   {
     "image": "kim.png",
+    "name": "Sofia",
+    "title": "",
+    "tags": "Design, UX"
+  },
+  {
+    "image": "kim.png",
+    "name": "Maira",
+    "title": "",
+    "tags": "Design, UX"
+  },
+  {
+    "image": "kim.png",
     "name": "Artur Kim Shum",
     "title": "re:edu GmbH & Co KG.",
     "tags": "Design, UX"

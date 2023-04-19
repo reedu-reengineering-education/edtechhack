@@ -14,6 +14,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 import Registration from '@/components/Registration'
 import Organisators from '@/components/Organisators'
+import Workshops from '@/components/Workshops'
 
 const Home: NextPage = () => {
   return (
@@ -38,6 +39,7 @@ const Home: NextPage = () => {
         <Program />
         <Bar />
         <Challenges />
+        <Workshops />
         {/* <Prizes /> */}
         <Bar />
         <Jury />

@@ -47,12 +47,17 @@
     "description": "You have a challenges related to EdTech? Submit it here and we will select the best ones for the hackathon. The challenges will be presented to the participants and they will work on them during the hackathon.",
     "submit": "Submit a challenge"
   },
+  "workshops": {
+    "title": "The workshops",
+    "description": "You have a challenges related to EdTech? Submit it here and we will select the best ones for the hackathon. The challenges will be presented to the participants and they will work on them during the hackathon.",
+    "submit": "Submit a challenge"
+  },
   "prizes": {
     "title": "The prices"
   },
   "jury": {
     "title": "The Jury",
-    "prizesdescription": "The best team will be awarded with a registration for one representative of the winning team to participate in the German-Brazilian Innovation and Sustainability Congress organized by the German-Brazilian Chamber of Commerce and Industry São Paulo (AHK-SP), to be held on 29 and 30 September in São Paulo. The decision will be made by a high-ranking jury according to the following criteria:",
+    "prizesdescription": "The decision will be made by a high-ranking jury according to the following criteria:",
     "criteria1": "Degree of innovation",
     "criteria2": "Feasibility",
     "criteria3": "Benefit for the educational sector",

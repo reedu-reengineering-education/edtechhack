@@ -1,0 +1,26 @@
+[
+    {
+        "title": "senseBox",
+        "person": "Felix and Mario",
+        "description": "Brazilian music education still seems to belong to an economic and social elite, and its presence in schools, especially public ones, is almost non-existent. Music is impregnated with affective memories, which remind us of important moments in our lives: birthdays, weddings, parties, etc. It is through music that many are able to express themselves, feel the world around them and connect with it, as well as remember important people. For some reason that I cannot explain, there is also the myth of talent, that if a person is not born playing the piano, he or she will never play. Access to music education is hindered by these two situations: a myth of talent and the lack of money. The great challenge for the expansion of music projects in Brazil has been the lack of public policies, the low rate of teacher training in the area, and the high cost of buying and maintaining musical instruments. Meanwhile, thousands of students graduate from basic education without ever having had contact with music lessons, without the necessary artistic experience for their integral development. Why does money still regulate access to quality music education in Brazil?",
+        "image": "sensebox.png"
+    },
+    {
+        "title": "AI education in schools",
+        "person": "Kamilla",
+        "description": "Last year, the Brazilian School Computing Standard was approved, and according to the Ministry of Education, the implementation in schools should start in 2023. The Computing Standard includes a variety of computing topics that need to be addressed in schools, such as logic, data structures, artificial intelligence. Therefore, this workshop aims to demonstrate how educational technologies can support students in acquiring this expected computing knowledge and skills. For this, we chose one computing topic to address in the workshop: Artificial Intelligence (AI). This workshop will address what AI is and its main techniques and demonstrate some educational tools developed to teach AI in schools. Finally, we will explore an educational technology designed to teach how AI works to students and see how educational technologies can practically support computing education through a German use case.",
+        "image": "ai.png"
+    },
+    {
+        "title": "Do-It-Yourself Learning: Taking Control with AI-Driven Education",
+        "person": "Anna and Tobias",
+        "description": "The world of learning is evolving rapidly with the rise of AI algorithms, offering diverse opportunities, perspectives, but also risks for learning. With a focus on the proper use of these new technologies, sustainable potentials arise for self-organized and independent learning. In the workshop, everything revolves around the central question of how new digital technologies can be used for sustainable learning outcomes. As the maker of your own learning journey, we will discover how to expand digital competences to foster self-determined learning.",
+        "image": "learning.png"
+    },
+    {
+        "title": "Prototyping and Speculative Design",
+        "person": "Kim",
+        "description": "In the current global economic, demographic, and ecological crises, imagination and speculation are necessary skills. It is almost impossible to define a service, a product, or a change of habit based only on the present. On the other hand, speculative scenarios can make us use external contexts to reveal possible futures and come up with tangible and usable proposals. The Prototyping workshop will present theory and use questions to invite participants to build and test prototypes within future scenarios.",
+        "image": "prototyping.png"
+    }
+]
