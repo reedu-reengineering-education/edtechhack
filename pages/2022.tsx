@@ -21,14 +21,15 @@ const Projects: NextPage = () => {
             Impressions
           </p>
           <ImageGallery />
-          <iframe
-            className="aspect-video-16x9 mx-auto my-8"
-            width="800"
-            height="450"
-            src="https://www.youtube-nocookie.com/embed/Fjb_gJ1ZsP4"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          ></iframe>
+          <div className="mx-auto my-8 aspect-video max-h-[40rem] w-full">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube-nocookie.com/embed/Fjb_gJ1ZsP4"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+          </div>
         </div>
         <div className="my-40">
           <p className="text-center text-4xl font-bold lg:text-6xl">
