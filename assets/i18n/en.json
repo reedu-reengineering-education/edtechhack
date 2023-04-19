@@ -105,7 +105,7 @@
   "registration": {
     "title": "Registration",
     "challenge": "Submit a challenge",
-    "challengeOver": "Thank you for your submissions. The registration is closed now."
+    "challengeOver": "Thank you for your submissions. The registration is closed now. We will contact you soon!"
   },
   "challengeSubmission": {
     "title": "Submit a challenge",
