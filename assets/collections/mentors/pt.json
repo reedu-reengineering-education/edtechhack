@@ -46,5 +46,29 @@
     "name": "Maira Gouveia",
     "title": "Universidade Federal de Pernambuco (UFPE)",
     "tags": "Design"
+  },
+  {
+    "image": "augusto.jpeg",
+    "name": "Augusto Ruy Machado",
+    "title": "Interdisciplinary Center for Interactive Technologies (CITI-USP)",
+    "tags": "Hardware and Prototyping"
+  },
+  {
+    "image": "dummy4.jpg",
+    "name": "Rodrigo Suigh",
+    "title": "Físico LSI-TEC",
+    "tags": "Hardware and Prototyping"
+  },
+  {
+    "image": "dummy4.jpg",
+    "name": "Lucas Mata",
+    "title": "Engenheiro LSI-TEC",
+    "tags": "Hardware and Prototyping"
+  },
+  {
+    "image": "dummy4.jpg",
+    "name": "Christian Oliveira",
+    "title": "Engenheiro LSI-TEC",
+    "tags": "Hardware and Prototyping"
   }
 ]
