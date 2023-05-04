@@ -120,7 +120,7 @@ const Workshops = () => {
           {posts.map(post => (
             <article
               key={post.id}
-              className="flex max-w-xl flex-col items-start justify-between"
+              className="flex max-w-xl flex-col items-start"
             >
               <div className="relative z-10 flex items-center gap-x-4 rounded-full bg-gray-50 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-100">
                 {post.category.title}
@@ -135,7 +135,7 @@ const Workshops = () => {
                 </p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
-                <div className="h-10 w-10 rounded-full bg-gray-50">
+                <div className="h-10 w-10 bg-gray-50">
                   <Image
                     src={require(`@/assets/images/mentors/${post.author1.image}`)}
                     layout="responsive"
@@ -146,7 +146,7 @@ const Workshops = () => {
                 </div>
 
                 {post.author2 ? (
-                  <div className="h-10 w-10 rounded-full bg-gray-50">
+                  <div className="h-10 w-10 bg-gray-50">
                     <Image
                       src={require(`@/assets/images/mentors/${post.author2.image}`)}
                       layout="responsive"
