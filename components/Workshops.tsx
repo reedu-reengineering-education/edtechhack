@@ -122,7 +122,7 @@ const Workshops = () => {
               key={post.id}
               className="flex max-w-xl flex-col items-start"
             >
-              <div className="relative z-10 flex items-center gap-x-4 rounded-full bg-gray-50 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-100">
+              <div className="relative flex items-center gap-x-4 rounded-full bg-gray-50 px-3 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-100">
                 {post.category.title}
               </div>
               <div className="group relative">
