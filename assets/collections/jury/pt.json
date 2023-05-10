@@ -12,6 +12,12 @@
     "tags": "Vice-diretora do IEA"
   },
   {
+    "image": "mensing.jpeg",
+    "name": "Sven Mensing",
+    "title": "Goethe-Institut São Paulo",
+    "tags": "Chefe dos Serviços de Informação do Goethe-Institut América do Sul"
+  },
+  {
     "image": "jochen_hellmann.jpeg",
     "name": "Dr. Jochen Hellmann",
     "title": "DWIH São Paulo",
@@ -21,12 +27,6 @@
     "image": "marina.jpg",
     "name": "Marina Nordi",
     "title": "Founder and Director Escola Mais",
-    "tags": ""
-  },
-  {
-    "image": "dummy1.png",
-    "name": "",
-    "title": "Goethe-Institut São Paulo",
     "tags": ""
   },
   {
