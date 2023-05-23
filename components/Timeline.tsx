@@ -95,11 +95,13 @@ const Timeline = () => {
                 <p className="mb-4 ml-auto w-fit md:ml-0 md:mr-auto">
                   {t.day2.date}
                 </p>
-                <ul className="my-4 ml-auto w-fit text-right md:mr-auto md:ml-0 md:text-left">
+                <ul className="my-4 ml-auto w-fit list-disc text-right md:mr-auto md:ml-0 md:text-left">
                   <li>09:00</li>
                   <p> Start Day 2 - Hacking</p>
                   <li>13:00</li> <p>Lunch </p>
-                  <li>18:00</li> <p>Sundowner and Barbecue</p>
+                  <li>14:00</li>
+                  <p>Study and Research in Germany</p>
+                  <li>18:00</li> <p>Dinner</p>
                   <li>21:00</li> <p>End Day 2</p>
                 </ul>
               </div>
@@ -125,7 +127,7 @@ const Timeline = () => {
                       className="text-blue-600 no-underline hover:underline"
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.youtube.com/watch?app=desktop&v=UYpj-0ZbRpM"
+                      href="https://www.youtube.com/watch?v=IZgCUhx1KyY"
                     >
                       youtube
                     </a>
