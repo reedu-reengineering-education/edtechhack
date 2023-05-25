@@ -14,7 +14,7 @@ const Jury = () => {
         <h2 className="my-4 text-center text-2xl font-semibold">
           Jury and Prizes
         </h2>
-        <p className="text-center">{t.prizesdescription}</p>
+        {/* <p className="text-center">{t.prizesdescription}</p> */}
         <ul className="list-disc">
           <li>{t.criteria1}</li>
           <li>{t.criteria2}</li>
