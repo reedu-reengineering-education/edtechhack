@@ -111,6 +111,7 @@
   "registration": {
     "title": "Formulário de registro",
     "challenge": "Apresentar um desafio",
+    "registrationSoon": "Registration will open on 1st of June 2024",
     "challengeOver": "Obrigado por seus envios. A inscrição está encerrada agora. Entraremos em contato com você em breve!"
   },
   "challengeSubmission": {
