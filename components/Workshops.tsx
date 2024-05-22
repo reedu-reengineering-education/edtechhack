@@ -56,12 +56,6 @@ const posts = [
       href: '#',
       image: 'anna.jpg',
     },
-    author2: {
-      name: 'Tobias',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      image: 'tobias.jpg',
-    },
   },
   {
     id: 4,
@@ -79,23 +73,23 @@ const posts = [
       image: 'kim.png',
     },
   },
-  {
-    id: 5,
-    title: 'Introduction Labrador da Caninos Loucos',
-    href: '#',
-    description:
-      'The workshop will give a Brief presentation of the Caninos Labrador board capabilities. The workshop will cover the following topics: Linux terminal and package manager basics, GPIO programming on Labrador using the caninos-sdk library for Python, PWM usage on the caninos-sdk Library, External access to the Labrador board (SSH, serial)',
-    date: 'Mar 16, 2020',
-    website: 'https://caninosloucos.org/pt/',
-    datetime: '2020-03-16',
-    category: { title: 'Physical Computing' },
-    author1: {
-      name: 'Augusto Machado',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      image: 'augusto.jpeg',
-    },
-  },
+  // {
+  //   id: 5,
+  //   title: 'Introduction Labrador da Caninos Loucos',
+  //   href: '#',
+  //   description:
+  //     'The workshop will give a Brief presentation of the Caninos Labrador board capabilities. The workshop will cover the following topics: Linux terminal and package manager basics, GPIO programming on Labrador using the caninos-sdk library for Python, PWM usage on the caninos-sdk Library, External access to the Labrador board (SSH, serial)',
+  //   date: 'Mar 16, 2020',
+  //   website: 'https://caninosloucos.org/pt/',
+  //   datetime: '2020-03-16',
+  //   category: { title: 'Physical Computing' },
+  //   author1: {
+  //     name: 'Augusto Machado',
+  //     role: 'Co-Founder / CTO',
+  //     href: '#',
+  //     image: 'augusto.jpeg',
+  //   },
+  // },
 
   // More posts...
 ]
@@ -112,8 +106,8 @@ const Workshops = () => {
             Workshops
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            We will have 5 different pre hack Workshops to help you get started
-            with your project.
+            We will have different pre hack Workshops to help you get started
+            with your project. Stay tuned for more information.
           </p>
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">

@@ -10,9 +10,10 @@
     "contact": "Contact"
   },
   "mainImage": {
-    "date": "May 25-27, 2023",
+    "date": "August 8-10, 2024",
     "place": "Goethe Institut São Paulo",
-    "hack_2022": "See what happened in 2022"
+    "hack_2022": "See what happened in 2022",
+    "hack_2023": "See what happened in 2023"
   },
   "program": {
     "q1": "Do you want to be part of tech-solutions for and national challenges in the educational area?",
@@ -71,28 +72,28 @@
     "title": "Timeline",
     "start": {
       "title": "Start",
-      "date": " 1st of march 2023",
+      "date": " 1st june 2024",
       "content": "Registration for the EdTech Hackathon open"
     },
     "deadline": {
-      "title": "Deadline for registration and challenge submission",
+      "title": "Deadline for registration",
       "date": " 19th of april 2023",
       "dateExtended": "Deadline extended to August 15th of 2022!",
       "content": "Submit a challenge and apply to join the Edtech Hackthon"
     },
     "day1": {
       "title": "Edtech Hackthon - Day 01",
-      "date": "May 25th of 2023",
+      "date": "August 08th 2024",
       "content": "<ul><li>9:00 am</li></ul>"
     },
     "day2": {
       "title": "Edtech Hackthon - Day 02",
-      "date": "May 26th of 2023",
+      "date": "August 9th of 2024",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     },
     "day3": {
       "title": "Edtech Hackthon - Day 03",
-      "date": "May 27th of 2023",
+      "date": "August 10th  2024",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     }
   },
