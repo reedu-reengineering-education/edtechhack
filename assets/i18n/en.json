@@ -77,9 +77,14 @@
     },
     "deadline": {
       "title": "Deadline for registration",
-      "date": " 19th of april 2023",
+      "date": " 01 of Juli 2024",
       "dateExtended": "Deadline extended to August 15th of 2022!",
       "content": "Submit a challenge and apply to join the Edtech Hackthon"
+    },
+    "notification": {
+      "title": "Notification of acceptance",
+      "date": "until 7th of Juli 2024",
+      "content": "Unitl 7th of Juli you will get an information if you are selected to participate in the Edtech Hackthon"
     },
     "day1": {
       "title": "Edtech Hackthon - Day 01",

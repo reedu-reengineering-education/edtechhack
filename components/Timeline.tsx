@@ -51,6 +51,19 @@ const Timeline = () => {
                 {t.deadline.content}
               </p>
             </li>
+            <li className="mr-8 pb-10">
+              <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
+              <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
+                {t.notification.title}
+              </h2>
+              <p className="mb-4 ml-auto w-fit">{t.deadline.date}</p>
+              {/* <p className="mb-4 ml-auto w-fit text-rose-800">
+                {t.deadline.dateExtended}
+              </p> */}
+              <p className="ml-auto w-fit py-4 text-right">
+                {t.notification.content}
+              </p>
+            </li>
           </ol>
           <ol className="relative border-r-4 border-royal-blue">
             <li className="mr-8 pb-10">
