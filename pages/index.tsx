@@ -42,13 +42,13 @@ const Home: NextPage = () => {
         {/* <Prizes /> */}
         <Bar />
         <Jury />
-        <Mentors />
         <Bar />
         <Workshops />
         <Bar />
         <Timeline />
         <Contact />
         <Bar />
+        <Mentors />
         <Organisators />
         <Supporters />
         <Partners />

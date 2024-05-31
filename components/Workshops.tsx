@@ -43,10 +43,9 @@ const posts = [
   },
   {
     id: 3,
-    title: 'Do-It-Yourself Learning: Taking Control with AI-Driven Education',
+    title: 'To be announced',
     href: '#',
-    description:
-      'The world of learning is evolving rapidly with the rise of AI algorithms, offering diverse opportunities, perspectives, but also risks for learning. With a focus on the proper use of these new technologies, sustainable potentials arise for self-organized and independent learning. In the workshop, everything revolves around the central question of how new digital technologies can be used for sustainable learning outcomes. As the maker of your own learning journey, we will discover how to expand digital competences to foster self-determined learning.',
+    description: 'To be announced. Stay tuned for more information.',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'AI', href: '#' },
