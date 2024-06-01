@@ -10,9 +10,10 @@
     "contact": "Contato"
   },
   "mainImage": {
-    "date": "25-27 de maio 2023",
+    "date": "8-10 de augusto 2024",
     "place": "em São Paulo",
-    "hack_2022": "Veja o que aconteceu em 2022"
+    "hack_2022": "Veja o que aconteceu em 2022",
+    "hack_2023": "Veja o que aconteceu em 2023"
   },
   "program": {
     "q1": "Você quer fazer parte de soluções tecnológicas para desafios na área educacional?",
@@ -22,7 +23,7 @@
     "participate": "Quem pode participar?",
     "program": {
       "title": "O programa",
-      "description": "O Hackthon Edtech é um evento para desenvolver soluções tecnológicas para desafios locais e globais na Educação. Qualquer pessoa interessada no tema pode enviar desafios. A fase presencial acontecerá de 25 a 27 de maio no Instituto Goethe em São Paulo. Serão dois dias de Hackthon para os participantes desenvolverem soluções tecnológicas apoiados por mentores, infra-estrutura e pizza."
+      "description": "O Edtech Hackathon é um evento para desenvolver soluções tecnológicas para desafios locais e globais na educação. A fase on-line é o momento em que todos podem enviar uma ideia de desafio aqui. Após as duas edições do EdTech Hackthon em 2022 e 2023, o hackathon deste ano acontecerá de 8 a 10 de agosto no Goethe-Institut, em São Paulo. Serão três dias para os participantes desenvolverem soluções com o apoio de mentores, além de workshops, pizza e comida e cerveja alemãs."
     },
     "challenges": {
       "title": "Os Desafios",
@@ -75,25 +76,30 @@
       "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
     },
     "deadline": {
-      "title": "Prazo para envio dos desafios e da inscrição para o Hackthon",
-      "date": "19 de abril 2023",
-      "dateExtended": "Prazo prorrogado até 28 de abril de 2023!",
-      "content": "Envie um desafio e inscreva-se para participar do Edtech Hackthon"
+      "title": "Deadline for registration",
+      "date": "01 of Juli 2024",
+      "dateExtended": "Deadline extended to August 15th of 2022!",
+      "content": "Submit a challenge and apply to join the Edtech Hackthon"
+    },
+    "notification": {
+      "title": "Notification of acceptance",
+      "date": "until 7th of Juli 2024",
+      "content": "Unitl 7th of Juli you will get an information if you are selected to participate in the Edtech Hackthon"
     },
     "day1": {
-      "title": "Edtech Hackthon - Dia 01",
-      "date": "25 de maio 2023",
-      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Palestras, encontro e grupos de trabalho - Oficina sobre tecnologias e educação + Almoço + Boas-vindas DWIH + Introdução & desafios + Pitches + Finalização do dia com pizza"
+      "title": "Edtech Hackthon - Day 01",
+      "date": "August 08th 2024",
+      "content": "<ul><li>9:00 am</li></ul>"
     },
     "day2": {
-      "title": "Edtech Hackthon - Dia 02",
-      "date": "26 de maio 2023",
-      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Investidores e Ecossistema de inovação brasileiro - Apresentação e troca com os investidores + Almoço + Apresentação do ecossistema de Startups + Finalização do dia com churrasco"
+      "title": "Edtech Hackthon - Day 02",
+      "date": "August 9th of 2024",
+      "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     },
     "day3": {
-      "title": "Edtech Hackthon - Dia 03",
-      "date": "27 de maio 2023",
-      "content": "Aprendizagem, reunião e hacking - Oficinas práticas pré-hack sobre tecnologias Almoço Palavras de boas-vindas DWIH & introdução & desafios Pensar e pensar + Pitches + Jantar de pizza em grupo = Apresentação final e premiação - Almoço + Apresentação final ao Júri + Keynotes + Premiação dos vencedores e celebração"
+      "title": "Edtech Hackthon - Day 03",
+      "date": "August 10th  2024",
+      "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     }
   },
   "supporters": {
@@ -105,6 +111,7 @@
   "registration": {
     "title": "Formulário de registro",
     "challenge": "Apresentar um desafio",
+    "registrationSoon": "Registration will open on 1st of June 2024",
     "challengeOver": "Obrigado por seus envios. A inscrição está encerrada agora. Entraremos em contato com você em breve!"
   },
   "challengeSubmission": {

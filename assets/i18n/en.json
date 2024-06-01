@@ -10,9 +10,9 @@
     "contact": "Contact"
   },
   "mainImage": {
-    "date": "May 25-27, 2023",
+    "date": "August 8-10, 2024",
     "place": "Goethe Institut São Paulo",
-    "hack_2022": "See what happened in 2022"
+    "hack_prev": "See what happened in previous years"
   },
   "program": {
     "q1": "Do you want to be part of tech-solutions for and national challenges in the educational area?",
@@ -22,7 +22,7 @@
     "participate": "Who can participate?",
     "program": {
       "title": "The program",
-      "description": "The Edtech Hackathon is an event to develop tech solutions to local and global challenges in education. The online phase is the moment where everyone can submit an idea of challenge here. After the first EdTech Hackthon in 2022 this years hackathon, will take place on the 25-27th of May at the Goethe Institut in São Paulo. It will be two three days for participants to develop solutions supported by mentors and workshops, pizza and german food and beer."
+      "description": "The Edtech Hackathon is an event to develop tech solutions to local and global challenges in education. The online phase is the moment where everyone can submit an idea of challenge here. After the two editions of the EdTech Hackthon in 2022 and 2023, this year's hackathon will take place from the 8-10th of August at the Goethe-Institut in São Paulo. It will be three days for participants to develop solutions supported by mentors plus workshops, pizza and German food and beer."
     },
     "challenges": {
       "title": "The Challenges",
@@ -52,7 +52,8 @@
   },
   "jury": {
     "title": "The Jury",
-    "prizesdescription": "The best team will be awarded with a registration for one representative of the winning team to participate in the German-Brazilian Innovation and Sustainability Congress organized by the German-Brazilian Chamber of Commerce and Industry São Paulo (AHK-SP), to be held on 29 and 30 September in São Paulo. The decision will be made by a high-ranking jury according to the following criteria:",
+    "prizesdescription": "Thanks to our great partner, Goethe-Institute, the winning team will be awarded with a scholarship for one of its members to do a two-week intensive German course at a Goethe-Institute in Germany, including flight and accomodation costs. Besides, this person will be invited to visit all three origanising universities (FU Berlin, TUM and Uni Münster) and their startup centers during their stay. ",
+    "jurydescription": "The jury will evaluate the solutions based on the following criteria:",
     "criteria1": "Degree of innovation",
     "criteria2": "Feasibility",
     "criteria3": "Benefit for the educational sector",
@@ -71,28 +72,33 @@
     "title": "Timeline",
     "start": {
       "title": "Start",
-      "date": " 1st of march 2023",
+      "date": " 1st june 2024",
       "content": "Registration for the EdTech Hackathon open"
     },
     "deadline": {
-      "title": "Deadline for registration and challenge submission",
-      "date": " 19th of april 2023",
+      "title": "Deadline for registration",
+      "date": " 01 of Juli 2024",
       "dateExtended": "Deadline extended to August 15th of 2022!",
       "content": "Submit a challenge and apply to join the Edtech Hackthon"
     },
+    "notification": {
+      "title": "Notification of acceptance",
+      "date": "7th of Juli 2024",
+      "content": "Until 7th of Juli you will get an information if you are selected to participate in the Edtech Hackthon"
+    },
     "day1": {
       "title": "Edtech Hackthon - Day 01",
-      "date": "May 25th of 2023",
+      "date": "August 08th 2024",
       "content": "<ul><li>9:00 am</li></ul>"
     },
     "day2": {
       "title": "Edtech Hackthon - Day 02",
-      "date": "May 26th of 2023",
+      "date": "August 9th of 2024",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     },
     "day3": {
       "title": "Edtech Hackthon - Day 03",
-      "date": "May 27th of 2023",
+      "date": "August 10th  2024",
       "content": "Learning, meeting & hacking - Pre-hack hands-on workshops on technologies Lunch Welcome words DWIH & introduction & challenges Thinking and tinkering + Pitches + Group forming Pizza dinner"
     }
   },
@@ -105,6 +111,7 @@
   "registration": {
     "title": "Registration",
     "challenge": "Submit a challenge",
+    "registrationSoon": "Registration will open on 1st of June 2024",
     "challengeOver": "Thank you for your submissions. The registration is closed now. We will contact you soon!"
   },
   "challengeSubmission": {

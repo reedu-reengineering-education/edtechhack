@@ -43,10 +43,9 @@ const posts = [
   },
   {
     id: 3,
-    title: 'Do-It-Yourself Learning: Taking Control with AI-Driven Education',
+    title: 'To be announced',
     href: '#',
-    description:
-      'The world of learning is evolving rapidly with the rise of AI algorithms, offering diverse opportunities, perspectives, but also risks for learning. With a focus on the proper use of these new technologies, sustainable potentials arise for self-organized and independent learning. In the workshop, everything revolves around the central question of how new digital technologies can be used for sustainable learning outcomes. As the maker of your own learning journey, we will discover how to expand digital competences to foster self-determined learning.',
+    description: 'To be announced. Stay tuned for more information.',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'AI', href: '#' },
@@ -55,12 +54,6 @@ const posts = [
       role: 'Co-Founder / CTO',
       href: '#',
       image: 'anna.jpg',
-    },
-    author2: {
-      name: 'Tobias',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      image: 'tobias.jpg',
     },
   },
   {
@@ -79,23 +72,23 @@ const posts = [
       image: 'kim.png',
     },
   },
-  {
-    id: 5,
-    title: 'Introduction Labrador da Caninos Loucos',
-    href: '#',
-    description:
-      'The workshop will give a Brief presentation of the Caninos Labrador board capabilities. The workshop will cover the following topics: Linux terminal and package manager basics, GPIO programming on Labrador using the caninos-sdk library for Python, PWM usage on the caninos-sdk Library, External access to the Labrador board (SSH, serial)',
-    date: 'Mar 16, 2020',
-    website: 'https://caninosloucos.org/pt/',
-    datetime: '2020-03-16',
-    category: { title: 'Physical Computing' },
-    author1: {
-      name: 'Augusto Machado',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      image: 'augusto.jpeg',
-    },
-  },
+  // {
+  //   id: 5,
+  //   title: 'Introduction Labrador da Caninos Loucos',
+  //   href: '#',
+  //   description:
+  //     'The workshop will give a Brief presentation of the Caninos Labrador board capabilities. The workshop will cover the following topics: Linux terminal and package manager basics, GPIO programming on Labrador using the caninos-sdk library for Python, PWM usage on the caninos-sdk Library, External access to the Labrador board (SSH, serial)',
+  //   date: 'Mar 16, 2020',
+  //   website: 'https://caninosloucos.org/pt/',
+  //   datetime: '2020-03-16',
+  //   category: { title: 'Physical Computing' },
+  //   author1: {
+  //     name: 'Augusto Machado',
+  //     role: 'Co-Founder / CTO',
+  //     href: '#',
+  //     image: 'augusto.jpeg',
+  //   },
+  // },
 
   // More posts...
 ]
@@ -112,8 +105,8 @@ const Workshops = () => {
             Workshops
           </h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            We will have 5 different pre hack Workshops to help you get started
-            with your project.
+            We will have different pre hack Workshops to help you get started
+            with your project. Stay tuned for more information.
           </p>
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">

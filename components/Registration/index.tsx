@@ -12,9 +12,8 @@ const Registration = () => {
       <div className="my-40">
         <div className="text-center" id="registration">
           <h1 className="mt-12 mb-8 text-3xl">{t.title}</h1>
-          <h1 className="mt-12 mb-8 text-xl">{t.challengeOver}</h1>
         </div>
-        {/* <JotformEmbed src="https://form.jotform.com/230454066099358"></JotformEmbed> */}
+        <JotformEmbed src="https://form.jotform.com/241271730305345"></JotformEmbed>
       </div>
     </>
   )

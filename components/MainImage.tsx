@@ -33,9 +33,18 @@ const MainImage = () => {
               endIcon={<ArrowRightIcon className="h-6 w-6" />}
               className="mx-auto mt-6"
             >
-              {t.hack_2022}
+              {t.hack_prev}
             </Button>
           </Link>
+          {/* <Link href="/2023">
+            <Button
+              variant="inverse"
+              endIcon={<ArrowRightIcon className="h-6 w-6" />}
+              className="mx-auto mt-6"
+            >
+              {t.hack_2023}
+            </Button>
+          </Link> */}
         </div>
       </div>
     </div>

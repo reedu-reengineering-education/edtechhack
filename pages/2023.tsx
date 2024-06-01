@@ -1,14 +1,14 @@
 import Project from '@/components/Project'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import ProjectCollection from '@/assets/collections/projects/projects2022.json'
+import ProjectCollection from '@/assets/collections/projects/projects2023.json'
 import ImageGallery from '@/components/ImageGallery'
 
 const Projects: NextPage = () => {
   return (
     <div className="pt-16 lg:pt-24">
       <Head>
-        <title>German-Brazilian EdTech Hackathon</title>
+        <title>German-Brazilian EdTech Hackathon 2023</title>
 
         <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
@@ -33,7 +33,7 @@ const Projects: NextPage = () => {
         </div>
         <div className="my-40">
           <p className="text-center text-4xl font-bold lg:text-6xl">
-            Projects 2022
+            Projects 2023
           </p>
         </div>
         <div className="my-4">

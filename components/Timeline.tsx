@@ -51,6 +51,19 @@ const Timeline = () => {
                 {t.deadline.content}
               </p>
             </li>
+            <li className="mr-8 pb-10">
+              <div className="absolute -right-3.5 h-6 w-6 rounded-full bg-royal-blue"></div>
+              <h2 className="my-2 ml-auto w-fit text-xl font-semibold">
+                {t.notification.title}
+              </h2>
+              <p className="mb-4 ml-auto w-fit">{t.notification.date}</p>
+              {/* <p className="mb-4 ml-auto w-fit text-rose-800">
+                {t.deadline.dateExtended}
+              </p> */}
+              <p className="ml-auto w-fit py-4 text-right">
+                {t.notification.content}
+              </p>
+            </li>
           </ol>
           <ol className="relative border-r-4 border-royal-blue">
             <li className="mr-8 pb-10">
@@ -73,9 +86,7 @@ const Timeline = () => {
                     Welcome words DWIH and Goethe Institut / introduction &
                     challenges{' '}
                   </p>
-                  <li>14:30</li> <p>Thinking and tinkering</p>
-                  <li>15:00</li> <p>Pitches </p>
-                  <li>15:30</li> <p>Group forming</p>
+                  <li>14:30</li> <p>Brainstorming, Pitching, Group forming</p>
                   <li>16:00</li>
                   <p>
                     Kick-off / registration of groups with participants and
