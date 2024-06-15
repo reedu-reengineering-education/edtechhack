@@ -13,7 +13,8 @@
     "date": "8-10 de augusto 2024",
     "place": "em São Paulo",
     "hack_2022": "Veja o que aconteceu em 2022",
-    "hack_2023": "Veja o que aconteceu em 2023"
+    "hack_2023": "Veja o que aconteceu em 2023",
+    "hack_prev": "Veja o que ocorreu nos anos anteriores"
   },
   "program": {
     "q1": "Você quer fazer parte de soluções tecnológicas para desafios na área educacional?",
@@ -54,7 +55,7 @@
   "jury": {
     "title": "O júri",
     "description": "Descrição geral e o número de pessoas",
-    "prizesdescription": "A melhor equipe será premiada com uma inscrição para um representante da equipe vencedora para participar do Congresso Brasil-Alemanha de Inovação e Sustentabilidade organizado pela Câmara de Comércio e Indústria Brasil-Alemanha São Paulo (AHK-SP), a ser realizado nos dias 29 e 30 de setembro em São Paulo. A decisão será tomada por um júri de alto nível, de acordo com os seguintes critérios:",
+    "prizesdescription": "Graças ao nosso grande parceiro, o Goethe-Institute, a equipe vencedora será premiada com uma bolsa de estudos para que um de seus membros faça um curso intensivo de alemão de duas semanas em um Goethe-Institute na Alemanha, incluindo custos de voo e acomodação. Além disso, essa pessoa será convidada a visitar as três universidades de origem (FU Berlin, TUM e Uni Münster) e seus centros de startups durante sua estadia.",
     "criteria1": "Grau de inovação",
     "criteria2": "Viabilidade",
     "criteria3": "Benefício para o setor educacional",
