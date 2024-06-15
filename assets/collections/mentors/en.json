@@ -9,7 +9,7 @@
     "image": "felix.jpeg",
     "name": "Felix Erdmann",
     "title": "re:edu GmbH & Co KG.",
-    "tags": "Web and App development"
+    "tags": "Web and App development, Fullstack"
   },
   {
     "image": "anna.jpg",
@@ -22,5 +22,17 @@
     "name": "Kamilla Tenório",
     "title": "FU Berlin",
     "tags": "CS Education"
+  },
+  {
+    "image": "kenzo.jpg",
+    "name": "Pedro Kenzo Muramatsu Carmo",
+    "title": "Co-founder at SignLink / Incoming Technical Student at CERN / University of São Paulo",
+    "tags": "WebDev, GenAI, Pitch Presentation"
+  },
+  {
+    "image": "dummy4.jpg",
+    "name": "Thiago Henrique Silva",
+    "title": "University of São Paulo. Co-founder and Head of Marketing at Milie Mind",
+    "tags": "design thinking, buisness modelling and pitching"
   }
 ]
