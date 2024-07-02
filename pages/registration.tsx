@@ -1,4 +1,3 @@
-import Registration from '@/components/Registration'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -11,8 +10,10 @@ const RegistrationPage: NextPage = () => {
         <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
 
-      <main className="container mx-auto px-4">
-        <Registration />
+      <main className="container mx-auto flex h-[80vh] flex-col items-center justify-center gap-8 px-4 pt-24">
+        {/* <Registration /> */}
+        <p>The registration is over, thank you for your interest</p>
+        <p>O registro acabou, obrigado pelo seu interesse</p>
       </main>
     </div>
   )
