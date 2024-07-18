@@ -43,9 +43,10 @@ const posts = [
   },
   {
     id: 3,
-    title: 'To be announced',
+    title: 'Advancing Child Safety in the Digital Space',
     href: '#',
-    description: 'To be announced. Stay tuned for more information.',
+    description:
+      'The workshop addresses emerging child safety challenges in the digital environment, focusing on educational approaches that play a crucial role in the prevention and intervention of possible risks and harms. It will explore the most effective educational strategies to help children identify and get help with conduct and contact risks they face, such as self-harm, violence, and cyberbullying. This workshop aims to advance the conversation on digital child safety, emphasizing the importance of education in creating a safer online environment for young people.',
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     category: { title: 'AI', href: '#' },
