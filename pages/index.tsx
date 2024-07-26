@@ -15,6 +15,7 @@ import Script from 'next/script'
 import Registration from '@/components/Registration'
 import Organisators from '@/components/Organisators'
 import Workshops from '@/components/Workshops'
+import Topic from '@/components/Topic'
 
 const Home: NextPage = () => {
   return (
@@ -38,9 +39,12 @@ const Home: NextPage = () => {
       <main className="container mx-auto">
         <Program />
         <Bar />
+        <Topic />
+        <Bar />
         <Challenges />
         {/* <Prizes /> */}
         <Bar />
+
         <Jury />
         <Bar />
         <Workshops />

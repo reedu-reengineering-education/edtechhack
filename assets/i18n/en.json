@@ -42,11 +42,6 @@
       "apply": "If needed, apply for grant"
     }
   },
-  "challenges": {
-    "title": "The challenges",
-    "description": "You have a challenges related to EdTech? Submit it here and we will select the best ones for the hackathon. The challenges will be presented to the participants and they will work on them during the hackathon.",
-    "submit": "Submit a challenge"
-  },
   "prizes": {
     "title": "The prices"
   },
@@ -121,5 +116,34 @@
   "footer": {
     "share": "Share",
     "contact": "Contact"
+  },
+  "challenges": {
+    "title": "The challenge of the year: Education for Sustainable Development (ESD)",
+    "description": "You have a challenge related to EdTech or Education for Sustainable Development? The challenges will be presented to the participants and they will work on them during the hackathon.",
+    "submit": "Submit a challenge"
+  },
+  "esd": {
+    "title": "Education for Sustainable Development (ESD)",
+    "description": "Education for Sustainable Development (ESD) aims to enable people to acquire knowledge, skills, attitudes, and values necessary to shape a sustainable future. ESD empowers learners of all ages to make informed decisions and act responsibly to achieve environmental integrity, economic viability, and a just society for present and future generations.",
+    "whyMattersTitle": "Why ESD Matters:",
+    "whyMatters1Title": "Empowerment",
+    "whyMatters1Description": "ESD empowers individuals to actively contribute to sustainable development.",
+    "whyMatters2Title": "Interconnectedness",
+    "whyMatters2Description": "It emphasizes the interconnectedness of global challenges, such as climate change, biodiversity loss, and social inequality.",
+    "whyMatters3Title": "Holistic Approach",
+    "whyMatters3Description": "ESD promotes a holistic approach to education, integrating critical thinking, problem-solving, and participatory teaching and learning methods.",
+    "keyGoalsTitle": "Key Goals of ESD:",
+    "keyGoals1Title": "Promote Lifelong Learning",
+    "keyGoals1Description": "Encourage continuous education and skill development to adapt to evolving sustainability challenges.",
+    "keyGoals2Title": "Integrate Sustainability in Education",
+    "keyGoals2Description": "Embed sustainable practices and principles across all levels of education and training.",
+    "keyGoals3Title": "Enhance Collaboration",
+    "keyGoals3Description": "Foster partnerships between educational institutions, communities, and industries to address sustainability issues collectively.",
+    "keyGoals4Title": "Support Informed Decision-Making",
+    "keyGoals4Description": "Equip learners with the ability to make informed decisions that positively impact the environment, economy, and society.",
+    "implementation": "ESD is implemented globally through various projects and initiatives, adapting to local contexts while maintaining its core principles. From school curricula to community programs, ESD fosters an inclusive, equitable, and sustainable world.",
+    "joinMovementTitle": "Join the Movement",
+    "joinMovementDescription": "Learn more about how you can contribute to Education for Sustainable Development and become part of the global movement towards a sustainable future.",
+    "learnMore": "Learn more about the Goethe-Institut ESD Program"
   }
 }
