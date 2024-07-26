@@ -44,11 +44,6 @@
       "apply": "Caso necessário, solicite uma bolsa-mobilidade"
     }
   },
-  "challenges": {
-    "title": "Os desafios",
-    "description": "Você tem um desafio relacionado com a EdTech? Submeta-o aqui e selecionaremos os melhores para a hackathon. Os desafios serão apresentados aos participantes e eles trabalharão neles durante a hackathon",
-    "submit": "Submeter um desafio"
-  },
   "prizes": {
     "title": "Os prêmios"
   },
@@ -122,5 +117,34 @@
   "footer": {
     "share": "Compartilhe",
     "contact": "Contato"
+  },
+  "challenges": {
+    "title": "O desafio do ano: Educação para o Desenvolvimento Sustentável (EDS)",
+    "description": "Tem um desafio relacionado com a EdTech ou a Educação para o Desenvolvimento Sustentável? Os desafios serão apresentados aos participantes e estes trabalharão neles durante a hackathon",
+    "submit": "Submeter um desafio"
+  },
+  "esd": {
+    "title": "Educação para o Desenvolvimento Sustentável (EDS)",
+    "description": "A Educação para o Desenvolvimento Sustentável (EDS) visa capacitar as pessoas a adquirirem conhecimentos, habilidades, atitudes e valores necessários para moldar um futuro sustentável. A EDS capacita alunos de todas as idades a tomar decisões informadas e agir de maneira responsável para alcançar a integridade ambiental, a viabilidade econômica e uma sociedade justa para as gerações presentes e futuras.",
+    "whyMattersTitle": "Por que a EDS é Importante:",
+    "whyMatters1Title": "Empoderamento",
+    "whyMatters1Description": "A EDS capacita os indivíduos a contribuir ativamente para o desenvolvimento sustentável.",
+    "whyMatters2Title": "Interconectividade",
+    "whyMatters2Description": "Destaca a interconexão dos desafios globais, como mudanças climáticas, perda de biodiversidade e desigualdade social.",
+    "whyMatters3Title": "Abordagem Holística",
+    "whyMatters3Description": "A EDS promove uma abordagem holística da educação, integrando pensamento crítico, resolução de problemas e métodos de ensino e aprendizagem participativos.",
+    "keyGoalsTitle": "Principais Objetivos da EDS:",
+    "keyGoals1Title": "Promover a Aprendizagem ao Longo da Vida",
+    "keyGoals1Description": "Incentivar a educação contínua e o desenvolvimento de habilidades para se adaptar aos desafios de sustentabilidade em evolução.",
+    "keyGoals2Title": "Integrar Sustentabilidade na Educação",
+    "keyGoals2Description": "Incorporar práticas e princípios sustentáveis em todos os níveis de educação e treinamento.",
+    "keyGoals3Title": "Aprimorar a Colaboração",
+    "keyGoals3Description": "Fomentar parcerias entre instituições educacionais, comunidades e indústrias para abordar questões de sustentabilidade coletivamente.",
+    "keyGoals4Title": "Apoiar a Tomada de Decisões Informadas",
+    "keyGoals4Description": "Capacitar os alunos com a capacidade de tomar decisões informadas que impactem positivamente o meio ambiente, a economia e a sociedade.",
+    "implementation": "A EDS é implementada globalmente por meio de vários projetos e iniciativas, adaptando-se aos contextos locais enquanto mantém seus princípios fundamentais. Desde currículos escolares até programas comunitários, a EDS promove um mundo inclusivo, equitativo e sustentável.",
+    "joinMovementTitle": "Junte-se ao Movimento",
+    "joinMovementDescription": "Saiba mais sobre como você pode contribuir para a Educação para o Desenvolvimento Sustentável e fazer parte do movimento global em direção a um futuro sustentável.",
+    "learnMore": "Saiba mais sobre o Programa ESD do Goethe-Institut"
   }
 }
