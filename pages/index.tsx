@@ -40,8 +40,8 @@ const Home: NextPage = () => {
         <Program />
         <Bar />
         <Topic />
-        <Bar />
-        <Challenges />
+        {/* <Bar />
+        <Challenges /> */}
         {/* <Prizes /> */}
         <Bar />
 
