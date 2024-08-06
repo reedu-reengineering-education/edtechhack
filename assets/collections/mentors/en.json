@@ -30,7 +30,7 @@
     "tags": "WebDev, GenAI, Pitch Presentation"
   },
   {
-    "image": "dummy4.jpg",
+    "image": "thiago.jpg",
     "name": "Thiago Henrique Silva",
     "title": "University of São Paulo. Co-founder and Head of Marketing at Milie Mind",
     "tags": "design thinking, buisness modelling and pitching"
@@ -40,5 +40,11 @@
     "name": "Caio Costa Quintana",
     "title": "Federal University of Juiz de Fora (UFJF) & Sign Link",
     "tags": "Design, 3d Printing and Modeling, UI/UX."
+  },
+  {
+    "image": "monique.png",
+    "name": "Monique Roque",
+    "title": "Coordinator of 2811's activities in Brazil",
+    "tags": "2811, climate-action, product-design."
   }
 ]
