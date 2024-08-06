@@ -1,8 +1,8 @@
 import { ArrowRightIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Button } from './Elements/Button'
-import Link from 'next/link'
 
 const MainImage = () => {
   const router = useRouter()
@@ -31,7 +31,8 @@ const MainImage = () => {
             <Button
               variant="inverse"
               endIcon={<ArrowRightIcon className="h-6 w-6" />}
-              className="mx-auto mt-6"
+              className="mx-auto md:mt-6"
+              size="sm"
             >
               {t.hack_prev}
             </Button>
