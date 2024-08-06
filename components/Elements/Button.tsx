@@ -10,7 +10,7 @@ const variants = {
 }
 
 const sizes = {
-  sm: 'py-3 px-6 text-sm',
+  sm: 'py-3 px-6 text-sm md:text-md',
   md: 'py-4 px-4 text-md',
   lg: 'py-6 px-10 text-lg',
 }

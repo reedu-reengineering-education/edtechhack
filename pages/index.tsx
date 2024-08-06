@@ -1,25 +1,21 @@
-import type { NextPage } from 'next'
-import Bar from '@/components/Elements/Bar'
-import Program from '@/components/Program'
-import Challenges from '@/components/Challenges'
-import Jury from '@/components/Jury'
-import Mentors from '@/components/Mentors'
-import Timeline from '@/components/Timeline'
 import Contact from '@/components/Contact'
-import Prizes from '@/components/Prizes'
-import Supporters from '@/components/Supporters'
-import Partners from '@/components/Partners'
+import Bar from '@/components/Elements/Bar'
+import Jury from '@/components/Jury'
 import MainImage from '@/components/MainImage'
-import Head from 'next/head'
-import Script from 'next/script'
-import Registration from '@/components/Registration'
+import Mentors from '@/components/Mentors'
 import Organisators from '@/components/Organisators'
-import Workshops from '@/components/Workshops'
+import Partners from '@/components/Partners'
+import Program from '@/components/Program'
+import Supporters from '@/components/Supporters'
+import Timeline from '@/components/Timeline'
 import Topic from '@/components/Topic'
+import Workshops from '@/components/Workshops'
+import type { NextPage } from 'next'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
-    <div className="pt-16 lg:pt-24">
+    <div className="pt-20 lg:pt-24">
       <Head>
         <title>German-Brazilian EdTech Hackathon</title>
         <meta
