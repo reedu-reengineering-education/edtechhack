@@ -138,7 +138,7 @@ const Timeline = () => {
                       className="text-blue-600 no-underline hover:underline"
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.youtube.com/watch?v=IZgCUhx1KyY"
+                      href="https://www.youtube.com/watch?v=Sc3AnEBPFic"
                     >
                       youtube
                     </a>
